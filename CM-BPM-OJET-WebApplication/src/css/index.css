@@ -1,0 +1,14 @@
+html {
+    max-height: 100vh;
+    overflow: hidden;
+  }
+  
+  #routercontent {
+    overflow: auto;
+  }
+  
+  .atradiusMain {
+    height: 100vh;
+    width: 100%;
+    overflow: auto;
+  }
