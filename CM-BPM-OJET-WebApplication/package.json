@@ -8,14 +8,19 @@
   },
   "devDependencies": {
     "@oracle/oraclejet-tooling": "~7.1.0",
-    "qunit-reporter-junit": "^1.1.1",
-    "qunit": "^2.4.1"
+    "node-sass": "^4.11.0",
+    "qunit": "^2.4.1",
+    "qunit-reporter-junit": "^1.1.1"
   },
   "engines": {
     "node": ">=0.10.0"
   },
   "private": true,
   "scripts": {
-    "serve": "python -m http.server 1234"
+    "build": "ojet build",
+    "serve": "python -m http.server 1234",
+    "atrbuild": "ojet build --theme=Atradius:web --sass",
+    "atrserve": "ojet serve --theme=Atradius:web --sass",
+    "atradius": "ojet serve --theme=Atradius:web --sass"
   }
 }

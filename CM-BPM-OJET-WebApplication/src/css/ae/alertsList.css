@@ -1,0 +1,58 @@
+.ae-my-alerts-container {
+    height: -webkit-calc(100vh - 140px);
+    height: -moz-calc(100vh - 140px);
+    height: calc(100vh - 140px);
+    width: 480px;
+}
+
+#alertDetailsArea {
+    height: -webkit-calc(100vh - 140px);
+    height: -moz-calc(100vh - 140px);
+    height: calc(100vh - 140px);
+    overflow: auto;
+}
+
+.text-bold span {
+	font-weight: bold;
+}
+
+.alert-text {
+    font-size: 18px;
+}
+
+.detail-button {
+    height: 36px;
+    width: 36px;   
+}
+
+#alertDetailsArea .detail-button-span{
+    padding: 0px !important;
+}
+
+#alertDetailsArea .oj-button-button {
+	height: 36px;
+}
+
+.unread-circle {
+    color: #dc0028;
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+.ae-my-alerts-container-checkbox {
+    width: 15px;
+    height: 15px;
+    margin-top: 3px;
+}
+
+.alert-button {
+    width: 140px;
+}
+
+.alert-exclamation-icon {
+    color: #cecece
+}
+
+.atr-text-italic {
+    font-style: italic;
+}
