@@ -43,10 +43,10 @@ require(['ojs/ojbootstrap', 'knockout', 'appController', 'ojs/ojrouter', 'ojs/oj
             function () {
               app.loadModule();
               // Bind your ViewModel for the content of the whole page body.
-              ko.applyBindings(app, document.getElementById('globalBody'));
+              ko.applyBindings(app, document.getElementById('atradius'));
             },
             function (error) {
-              Logger.error('Error in root start: ' + error.message);
+              console.log('Error in root start: ' + error.message);
             }
           );
         }
