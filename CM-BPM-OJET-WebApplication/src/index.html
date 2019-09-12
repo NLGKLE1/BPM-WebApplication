@@ -43,54 +43,11 @@
       </div>
     </div>
 
-    <!--login function-->
-    <!-- <div class="atradiusUser" data-bind="visible: loggedInUser()"
-      style="display: flex; justify-content: flex-end; align-items: center;">
-      <div style="position: relative" class="oj-sm-padding-4x-horizontal atr-pointer" data-bind="click: showAlerts">
-        <!-- ko if: alertsDisplayed() 
-        <i class="fas fa-bell fa-2x alerts-icon-showing"></i>
-        <!-- /ko -->
-        <!-- ko if: !alertsDisplayed()
-        <i class="far fa-bell fa-2x alerts-icon-hiding"></i>
-        <!-- /ko -->
-        <!-- ko if: totalNewAlerts()>0 
-        <span class="alert-number" data-bind="text: totalNewAlerts"></span>
-        <!-- /ko
-      </div>
-      <oj-avatar initials='[[loggedInUserInitials]]' size='xxs' class="atradiusUserAvatar"></oj-avatar>
-      <span data-bind="text: localeGreeting"></span>
-      <a style="color: #DDBD85" id="myLauncher" data-bind="text: loggedInUser" on-click="[[openUserOptions]]"></a>
-      <oj-menu id="userMenu" style="display:none" aria-labelledby="myLauncher" open-options.launcher="myLauncher">
-        <oj-option data-bind="click: logout" id="zoomin" value="Zoom In">Logout</oj-option>
-      </oj-menu>
-    </div> -->
-
-    <!--loads in the navigation role="navigation" class="sidebar-menu">-->
-    <div  id="routing-container" class="atradiusMenu atr-border-bottom">
-      <div  role="navigation" class="sidebar-menu">
-        <div id="navlist" class="oj-flex oj-flex-items-pad">
-          <div class="oj-xl-3 oj-lg-3 oj-md-3 oj-sm-12 oj-flex-item">
-            <oj-navigation-list id="menu" class="oj-navigationlist-nofollow-link"
-              data="[[navListData]]"
-              drill-mode="collapsible"
-              selection="[[selection]]"
-              on-oj-before-select="[[selectHandler]]">
-              <template slot="itemTemplate" data-oj-as="item">
-                <li :id="[[item.data.attr.id]]">
-                  <a :href="[[item.data.attr.href]]">
-                    <span><oj-bind-text value="[[item.data.attr.label]]"></oj-bind-text></span>
-                  </a>
-                </li>
-              </template>
-            </oj-navigation-list>
-          </div>
-          <div class="oj-xl-9 oj-lg-9 oj-md-9 oj-sm-12 oj-flex-item">
-            <!-- This is where the module content will be loaded -->
-            <div id="content">
-              <oj-module config="[[moduleConfig]]"></oj-module>
-            </div>
-          </div>
-        </div>
+    <!--loads in the navigation-->
+    <div id="navDrawer" class="atradiusMenu atr-border-bottom">
+      <div role="navigation" class="sidebar-menu">
+        <oj-navigation-list >
+        </oj-navigation-list>
       </div>
     </div>
 
@@ -99,13 +56,13 @@
       <div class="oj-flex-item">
         <div class="oj-flex oj-sm-flex-direction-column oj-sm-flex-wrap-nowrap">
           <div class="oj-flex oj-sm-flex-direction-column oj-sm-flex-wrap-nowrap">
-            <!-- <div data-bind="ojModule:{name: 'data'}"></div> -->
+            <div data-bind="ojModule:{name: 'data'}"></div>
           </div>
         </div>
       </div>
     </div>
   </div>
- 
+
 
   <script type="text/javascript" src="js/libs/require/require.js"></script>
   <script type="text/javascript" src="js/main.js"></script>

@@ -1,0 +1,15 @@
+{
+	"version": 3,
+	"file": "Atradius.css",
+	"sources": [
+		"../../../src/themes/Atradius/web/Atradius.scss",
+		"../../../src/themes/Atradius/web/_Atradius.web.settings.scss",
+		"../../../node_modules/@oracle/oraclejet/dist/scss/utilities/_oj.utilities.urls.scss",
+		"../../../node_modules/@oracle/oraclejet/dist/scss/utilities/_oj.utilities.math.scss",
+		"../../../node_modules/@oracle/oraclejet/dist/scss/utilities/_oj.utilities.units.scss",
+		"../../../node_modules/@oracle/oraclejet/dist/scss/utilities/_oj.utilities.modules.scss",
+		"../../../node_modules/@oracle/oraclejet/dist/scss/utilities/_oj.utilities.theming.vars.scss"
+	],
+	"names": [],
+	"mappings": ""
+}

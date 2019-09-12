@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Atradius</title>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1">
+  <link rel="icon" href="css/images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="css/index.css" type="text/css" />
+
+  <!-- This is the main css file for the default Alta theme / research if can be changed or not to other name type -->
+  <!-- <link rel="stylesheet" href="css/libs/oj/v7.1.0/alta/oj-alta-min.css" type="text/css"/> -->
+  <!-- end Alta theme -->
+
+  <!-- THEME -->
+<!-- injector:theme -->
+<link rel="stylesheet" href="css/Atradius/0.0.1/web/Atradius.css" id="css" />
+<!-- endinjector -->
+
+  <!-- FONT AWESOME ICONS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+    integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+
+<body class="oj-web-applayout-body">
+
+  <!-- Template for rendering navigation items shared between nav bar and nav list -->
+  <script type="text/html" id="navTemplate">
+      <li><a href="#">
+        <span :class="[[$data['iconClass']]]"></span>
+        <oj-bind-text value="[[$data['name']]]"></oj-bind-text>
+      </a></li>
+    </script>
+  <!--End for rendering navigation items -->
+
+  <div id="atradius" class="atradiusGrid oj-offcanvas-outer-wrapper oj-offcanvas-page">
+    <div class="atradiusRed"></div>
+    <div class="atradiusHeader">
+      <div class="atradiusLogo">
+        <em id="drawerToggleButton" class="slideMenuButton fas fa-bars atr-pointer"></em>
+        <img class="logo" alt="Atradius Logo" src="css/images/atradiuslogo.png">
+      </div>
+    </div>
+
+    <!--loads in the navigation-->
+    <div id="navDrawer" class="atradiusMenu atr-border-bottom">
+      <div role="navigation" class="sidebar-menu">
+        <oj-navigation-list >
+        </oj-navigation-list>
+      </div>
+    </div>
+
+    <!--Loads in the main screen-->
+    <div id="atradiusMain" class="atradiusMain oj-flex oj-sm-flex-wrap-nowrap atr-border">
+      <div class="oj-flex-item">
+        <div class="oj-flex oj-sm-flex-direction-column oj-sm-flex-wrap-nowrap">
+          <div class="oj-flex oj-sm-flex-direction-column oj-sm-flex-wrap-nowrap">
+            <div data-bind="ojModule:{name: 'data'}"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script type="text/javascript" src="js/libs/require/require.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
