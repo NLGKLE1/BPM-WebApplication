@@ -1,10 +1,10 @@
 define(['knockout', 'ojs/ojmodule-element-utils', 'ojs/ojknockouttemplateutils', 'ojs/ojrouter', 'ojs/ojresponsiveutils', 'ojs/ojresponsiveknockoututils', 'ojs/ojarraydataprovider',
-        'ojs/ojmodule-element', 'ojs/ojknockout', 'ojs/ojoffcanvas',  ],
-  function(ko, moduleUtils, KnockoutTemplateUtils, Router, ResponsiveUtils, ResponsiveKnockoutUtils, ArrayDataProvider, OffcanvasUtils) {
-     function ControllerViewModel() {
-       var self = this;
+  'ojs/ojmodule-element', 'ojs/ojknockout', 'ojs/ojoffcanvas',],
+  function (ko, moduleUtils, KnockoutTemplateUtils, Router, ResponsiveUtils, ResponsiveKnockoutUtils, ArrayDataProvider, OffcanvasUtils) {
+    function ControllerViewModel() {
+      var self = this;
 
-       this.KnockoutTemplateUtils = KnockoutTemplateUtils;
+      this.KnockoutTemplateUtils = KnockoutTemplateUtils;
 
       // Media queries for repsonsive layouts
       var smQuery = ResponsiveUtils.getFrameworkQuery(ResponsiveUtils.FRAMEWORK_QUERY_KEY.SM_ONLY);
@@ -12,30 +12,31 @@ define(['knockout', 'ojs/ojmodule-element-utils', 'ojs/ojknockouttemplateutils',
       var mdQuery = ResponsiveUtils.getFrameworkQuery(ResponsiveUtils.FRAMEWORK_QUERY_KEY.MD_UP);
       self.mdScreen = ResponsiveKnockoutUtils.createMediaQueryObservable(mdQuery);
 
-       // Router setup
-       self.router = Router.rootInstance;
-       self.router.configure(
-         {
-         'data': {label: 'Data-dashboard'},
-         'about': {label: 'About'}
-       });
-       
+      // Router setup
+      self.router = Router.rootInstance;
+      self.router.configure(
+        {
+          'login': { label: 'Login screen', isDefault: true },
+          'data': { label: 'Data-dashboard' },
+          'about': { label: 'About' }
+        });
+
       Router.defaults['urlAdapter'] = new Router.urlParamAdapter();
 
-      self.moduleConfig = ko.observable({'view':[], 'viewModel':null});
+      self.moduleConfig = ko.observable({ 'view': [], 'viewModel': null });
 
-      self.loadModule = function() {
-        ko.computed(function() {
+      self.loadModule = function () {
+        ko.computed(function () {
           var name = self.router.moduleConfig.name();
           var viewPath = 'views/' + name + '.html';
           var modelPath = 'viewModels/' + name;
           var masterPromise = Promise.all([
-            moduleUtils.createView({'viewPath':viewPath}),
-            moduleUtils.createViewModel({'viewModelPath':modelPath})
+            moduleUtils.createView({ 'viewPath': viewPath }),
+            moduleUtils.createViewModel({ 'viewModelPath': modelPath })
           ]);
           masterPromise.then(
-            function(values){
-              self.moduleConfig({'view':values[0],'viewModel':values[1]});
+            function (values) {
+              self.moduleConfig({ 'view': values[0], 'viewModel': values[1] });
             }
           );
         });
@@ -43,13 +44,14 @@ define(['knockout', 'ojs/ojmodule-element-utils', 'ojs/ojknockouttemplateutils',
 
       // Navigation setup
       var navData = [
-      {name: 'Data', id: 'data'},
-      {name: 'About', id: 'about'}
+        { name: 'Login', id: 'login' },
+        { name: 'Data', id: 'data' },
+        { name: 'About', id: 'about' }
       ];
-      self.navDataProvider = new ArrayDataProvider(navData, {keyAttributes: 'id'});
+      self.navDataProvider = new ArrayDataProvider(navData, { keyAttributes: 'id' });
 
       // Called by navigation drawer toggle button and after selection of nav drawer item
-      self.toggleDrawer = function() {
+      self.toggleDrawer = function () {
         return OffcanvasUtils.toggle(self.drawerParams);
       }
       // Add a close listener so we can move focus back to the toggle button when the drawer closes
@@ -70,8 +72,8 @@ define(['knockout', 'ojs/ojmodule-element-utils', 'ojs/ojknockouttemplateutils',
       self.footerLinks = ko.observableArray([
         // new footerLink('About Oracle', 'aboutOracle', 'http://www.oracle.com/us/corporate/index.html#menu-about')
       ]);
-     }
+    }
 
-     return new ControllerViewModel();
+    return new ControllerViewModel();
   }
 );

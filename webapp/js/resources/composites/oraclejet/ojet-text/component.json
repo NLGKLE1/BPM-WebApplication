@@ -1,0 +1,21 @@
+{
+  "name": "ojet-text",
+  "displayName": "ojet-text",
+  "description": "Describe your component here",
+  "version": "1.0.0",
+  "jetVersion": "5.1.0",
+  "properties": {
+    "text": {
+      "type": "String"
+    }
+  },
+  "methods": {
+
+  }, 
+  "events": {
+
+  }, 
+  "slots": {
+
+  }
+}

@@ -1,0 +1,331 @@
+
+/*================================================================*/
+/*====================== ATRADIUS SKINS ==========================*/
+/*================================================================*/
+.atr-welcome {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 25px;
+    color: #333333;
+    text-align: center;
+}
+
+
+
+.atr-title {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 20px;
+    color: #333333;
+}
+
+.atr-title-highlight {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 20px;
+    color: #C6AA77;
+}
+
+.atr-title-number {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 30px;
+}
+
+.atr-subtitle {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 18px;
+    color: #565656;
+}
+
+.atr-form-label {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 14px;
+    color: #565656;
+}
+
+.atr-form-content {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 20px;
+    color: #333333;
+}
+
+.atr-form-highlighted {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 18px;
+    color: #C6AA77;
+}
+
+.atr-form-content-gray {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 20px;
+    color: #a8a2a2c0;
+}
+
+.atr-component-whitebox {
+    border: 1px solid #d1d1d1;
+    background-color: white;
+    padding: 20px;
+}
+
+.atr-component-graybox {
+    border: 1px solid #d1d1d1;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.atr-component-whitebox_nopadding {
+    border: 1px solid #d1d1d1;
+    background-color: white;
+}
+
+.atr-required-icon {
+    color: #DC0028;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+// TABLE
+.atr-table-content-link {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 14px;
+    color: #C6AA77 !important;
+}
+
+.atr-table-content-gold {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 18px;
+    color: #C6AA77 !important;
+}
+
+.atr-table-content {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 14px;
+    color: #333333 !important;
+}
+.atr-table-column {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 16px;
+    color: #848484;
+}
+.atr-nav-inactive {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #ABABAB;
+}
+
+.atr-nav-active {
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #333333;
+}
+
+
+/* apply only to oj-button */
+.atr-button-highlight>button>div {
+    background-color: #DDBD85 !important;
+    color: #FFFFFF !important;
+}
+.atr-button-highlight>button>div:hover {
+    background-color: #AA7A52 !important;
+    color: #FFFFFF !important;
+}
+
+.atr-button-remove>button>div {
+    background-color: #e17055 !important;
+    color: #FFFFFF !important;
+}
+
+.atr-button-edit>button>div {
+    background-color: #ffeaa7 !important;
+    color: #FFFFFF !important;
+}
+
+.atr-button-secondary>button>div {
+    background-color: #848484!important;
+    color: #FFFFFF !important;
+}
+.atr-button-secondary>button>div:hover {
+    background-color: #565656!important;
+    color: #FFFFFF !important;
+}
+
+/*Action Button*/
+.atr-button-action>button>div {
+    background-color: #FFFFFF!important;
+    color: #DDBD85 !important;
+}
+.atr-button-action>button>div:hover {
+    background-color: #FFFFFF!important;
+    color: #AA7A52 !important;
+}
+.atr-button-action>button {
+    border: 2px solid #DDBD85!important;
+}
+.atr-button-action>button:hover {
+    border: 2px solid #AA7A52!important;
+}
+
+.atr-button-tertiary>button>div {
+    background-color: #FFFFFF !important;
+    color: #C6AA77 !important;
+    border: 2px solid #DDBD85 !important;
+    cursor: pointer !important;
+    text-transform: uppercase !important;
+    box-sizing: border-box;
+}
+
+/* apply only to oj-avatar */
+.atr-avatar-table .oj-avatar-initials {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 26px;
+    text-align: center;
+    color: #848484;
+}
+
+.atr-avatar-table .oj-avatar-inner {
+    background-color: #E6E6E6;
+}
+
+.atr-avatar-table .oj-avatar-outer {
+    border: 1px solid #E6E6E6;
+    background-color: #E6E6E6;
+}
+
+.atr-blur-content {
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+.atr-out-of-scope.atr-panel {
+    position: relative;
+    pointer-events: none;
+}
+.atr-out-of-scope.atr-panel::before {
+    z-index: 1;
+    display: block;
+    content: " ";
+    background:#f2f2f3;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+    opacity: 0.75;
+    pointer-events: none;
+}
+
+.atr-out-of-scope.atr-panel::after {
+    z-index: 2;
+    content: "Out of scope";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 2em;
+    pointer-events: none;
+}
+
+.atr-pointer {
+    cursor: pointer;
+}
+
+.atr-background{
+    background: #F8F8F8;
+}
+
+.atr-border {
+    border: #d1d1d1 solid 1px;
+}
+.atr-border-horizontal {
+    border-right: #d1d1d1 solid 1px;
+    border-left: #d1d1d1 solid 1px;
+}
+.atr-border-vertical {
+    border-top: #d1d1d1 solid 1px;
+    border-bottom: #d1d1d1 solid 1px;
+}
+.atr-border-top {
+    border-top: #d1d1d1 solid 1px;
+}
+.atr-border-bottom {
+    border-bottom: #d1d1d1 solid 1px;
+}
+.atr-border-left {
+    border-left: #d1d1d1 solid 1px;
+}
+.atr-border-right {
+    border-right: #d1d1d1 solid 1px;
+}
+
+
+oj-select-one div:first-child {
+    height: 40px;
+}
+
+.atr-input-label {
+    padding-bottom: 12px;
+}
+
+.atr-required-icon {
+    font-size: 10px;
+    color: #DC0028;
+    font-weight: bold;
+}

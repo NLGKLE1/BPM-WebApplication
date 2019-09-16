@@ -26,14 +26,6 @@
 
 <body class="oj-web-applayout-body">
 
-  <!-- Template for rendering navigation items shared between nav bar and nav list -->
-  <script type="text/html" id="navTemplate">
-      <li><a href="#">
-        <span :class="[[$data['iconClass']]]"></span>
-        <oj-bind-text value="[[$data['name']]]"></oj-bind-text>
-      </a></li>
-    </script>
-  <!--End for rendering navigation items -->
 
   <div id="atradius" class="atradiusGrid oj-offcanvas-outer-wrapper oj-offcanvas-page">
     <div class="atradiusRed"></div>
@@ -48,16 +40,21 @@
     <div id="navDrawer" class="atradiusMenu atr-border-bottom">
       <div role="navigation" class="sidebar-menu">
         <oj-navigation-list >
+                            <!-- 
+                            data="[[navDataProvider]]"
+                            edge="start" -->
         </oj-navigation-list>
       </div>
     </div>
 
     <!--Loads in the main screen-->
-    <div id="atradiusMain" class="atradiusMain oj-flex oj-sm-flex-wrap-nowrap atr-border">
+    <div id="atradiusMain" class="atradiusMain oj-flex oj-sm-flex-wrap-nowrap atr-border" data-bind="ojModule: router.moduleConfig">
       <div class="oj-flex-item">
         <div class="oj-flex oj-sm-flex-direction-column oj-sm-flex-wrap-nowrap">
           <div class="oj-flex oj-sm-flex-direction-column oj-sm-flex-wrap-nowrap">
-            <div data-bind="ojModule:{name: 'data'}"></div>
+              
+            <div data-bind="ojModule:{name: 'login'}"></div>
+          
           </div>
         </div>
       </div>

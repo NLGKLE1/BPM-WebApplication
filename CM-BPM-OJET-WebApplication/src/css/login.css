@@ -1,0 +1,90 @@
+
+/* Set dropdown font-families */
+#toolbar-container .ql-font span[data-label="Sans Serif"]::before {
+	font-family: "Sans Serif";
+}
+#toolbar-container .ql-font span[data-label="Roboto"]::before {
+	font-family: "Roboto";
+}
+#toolbar-container .ql-font span[data-label="Arial"]::before {
+	font-family: "Arial";
+}
+/* Set content font-families */
+.ql-font-roboto {
+	font-family: "Roboto";
+}
+.ql-font-arial {
+	font-family: "Arial";
+}
+/* Do not set Sans Serif since it is the default font */
+
+.help-item-center {
+    display: flex;            
+    align-items: center;      
+    justify-content: center;  
+  }
+
+  .help-item-right {
+    display: flex;            
+    align-items: right;      
+    justify-content: right;  
+  }
+
+  .help-item-left {
+    display: flex;            
+    align-items: left;      
+    justify-content: left; 
+  }
+
+ .help-item-title {
+    display: flex;            
+    align-items: end;      
+    justify-content: start; 
+  }
+
+.help-item-subtitle {
+    display: flex;            
+    align-items: start;      
+    justify-content: start;  
+  }
+
+.login-main-grid {
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 30px 1fr 30px 50px 1fr 30px 30px 20px 30px 10px 300px;
+    grid-template-areas:
+        "title"
+        "."
+        "userLabel"
+        "usernameBox"
+        "."
+        "pwLabel"
+        "passwordBox"
+        "."
+        "loginButton";
+    }
+
+.login-title {
+    grid-area: title;
+}
+
+.login-userLabel {
+    grid-area: userLabel;
+    
+}
+
+.login-usernameBox {
+    grid-area: usernameBox;
+}
+
+.login-pwLabel {
+    grid-area: pwLabel;
+}
+
+.login-passwordBox {
+    grid-area: passwordBox;
+}
+
+.login-loginButton {
+    grid-area: loginButton;
+}

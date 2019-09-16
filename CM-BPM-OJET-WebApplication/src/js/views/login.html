@@ -1,0 +1,31 @@
+<STYLE TYPE="text/css">
+    @import url(css/login.css);
+</STYLE>
+
+<div id="main" class="login-main-grid">
+    
+
+    <div class="help-item-title login-title">
+        <span class="atr-title" data-bind="text: title"></span>
+
+    </div>
+
+    <div class="help-item-title login-userLabel">
+        <span class="atr-form-labelBold" data-bind="text: userLabel"></span>
+    </div>
+
+    <div class="login-usernameBox">
+        <oj-input-text value=" "></oj-input-text>
+    </div>
+
+    <div class="help-item-title login-pwLabel">
+        <span class="atr-form-labelBold" data-bind="text: pwLabel"></span>
+    </div>
+
+    <div class="login-passwordBox">
+        <oj-input-password id="password" value=""></oj-input-password>
+    </div>
+
+    <oj-button class="login-loginButton atr-button-highlight"><span data-bind="text: loginButtonText"></span></oj-button>
+
+</div>

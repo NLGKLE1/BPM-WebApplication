@@ -25,13 +25,13 @@
         <executions>
           <execution>
             <id>ojet build</id>
-			<phasse>generate-sources</phase>
+			<phase>generate-sources</phase>
             <goals>
               <goal>exec</goal>
             </goals>
 			<configuration>
 			<executable>ojet</executable>
-			<workingDirectory>${basedir}/src/main/webapp/web<workingDirectory>
+			<workingDirectory>${basedir}/src/main/webapp/web</workingDirectory>
 			<arguments>
 				<argument>build</argument>
 			</arguments>
