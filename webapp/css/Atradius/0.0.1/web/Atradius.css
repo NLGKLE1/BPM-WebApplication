@@ -954,7 +954,7 @@ html[dir="rtl"] .oj-padding-lg-end {
 .oj-fwk-icon-document,
 .oj-tree-leaf:not(.oj-tree-type) a .oj-tree-node-icon,
 .oj-treeview-leaf > .oj-treeview-item-content > .oj-treeview-item-icon {
-  background-image: url("../../../alta/6.0.0/common/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/common/images/sprites/sprite.svg");
   background-size: calc(332px * 1) calc(52px * 1);
   background-position: calc((0px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -970,7 +970,7 @@ html[dir="rtl"] .oj-padding-lg-end {
 .oj-hicontrast .oj-tree-leaf:not(.oj-tree-type) a .oj-tree-node-icon:before,
 .oj-tree-leaf:not(.oj-tree-type) a .oj-hicontrast .oj-tree-node-icon:before,
 .oj-hicontrast .oj-treeview-leaf > .oj-treeview-item-content > .oj-treeview-item-icon:before {
-  content: url("../../../alta/6.0.0/common/images/document.svg");
+  content: url("../../../alta/7.1.0/common/images/document.svg");
   width: 100%;
   height: 100%; }
 
@@ -982,14 +982,14 @@ html[dir="rtl"] .oj-padding-lg-end {
   .oj-fwk-icon-document:before,
   .oj-tree-leaf:not(.oj-tree-type) a .oj-tree-node-icon:before,
   .oj-treeview-leaf > .oj-treeview-item-content > .oj-treeview-item-icon:before {
-    content: url("../../../alta/6.0.0/common/images/document.svg");
+    content: url("../../../alta/7.1.0/common/images/document.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-folder-collapsed,
 .oj-collapsed:not(.oj-tree-type) > a .oj-tree-node-icon,
 .oj-collapsed > .oj-treeview-item-content > .oj-treeview-item-icon {
-  background-image: url("../../../alta/6.0.0/common/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/common/images/sprites/sprite.svg");
   background-size: calc(332px * 1) calc(52px * 1);
   background-position: calc((-20px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -1005,7 +1005,7 @@ html[dir="rtl"] .oj-padding-lg-end {
 .oj-hicontrast .oj-collapsed:not(.oj-tree-type) > a .oj-tree-node-icon:before,
 .oj-collapsed:not(.oj-tree-type) > a .oj-hicontrast .oj-tree-node-icon:before,
 .oj-hicontrast .oj-collapsed > .oj-treeview-item-content > .oj-treeview-item-icon:before {
-  content: url("../../../alta/6.0.0/common/images/folder_collapsed.svg");
+  content: url("../../../alta/7.1.0/common/images/folder_collapsed.svg");
   width: 100%;
   height: 100%; }
 
@@ -1017,14 +1017,14 @@ html[dir="rtl"] .oj-padding-lg-end {
   .oj-fwk-icon-folder-collapsed:before,
   .oj-collapsed:not(.oj-tree-type) > a .oj-tree-node-icon:before,
   .oj-collapsed > .oj-treeview-item-content > .oj-treeview-item-icon:before {
-    content: url("../../../alta/6.0.0/common/images/folder_collapsed.svg");
+    content: url("../../../alta/7.1.0/common/images/folder_collapsed.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-folder-open,
 .oj-expanded:not(.oj-tree-type) > a .oj-tree-node-icon,
 .oj-expanded > .oj-treeview-item-content > .oj-treeview-item-icon {
-  background-image: url("../../../alta/6.0.0/common/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/common/images/sprites/sprite.svg");
   background-size: calc(332px * 1) calc(52px * 1);
   background-position: calc((-40px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -1040,7 +1040,7 @@ html[dir="rtl"] .oj-padding-lg-end {
 .oj-hicontrast .oj-expanded:not(.oj-tree-type) > a .oj-tree-node-icon:before,
 .oj-expanded:not(.oj-tree-type) > a .oj-hicontrast .oj-tree-node-icon:before,
 .oj-hicontrast .oj-expanded > .oj-treeview-item-content > .oj-treeview-item-icon:before {
-  content: url("../../../alta/6.0.0/common/images/folder_open.svg");
+  content: url("../../../alta/7.1.0/common/images/folder_open.svg");
   width: 100%;
   height: 100%; }
 
@@ -1052,13 +1052,13 @@ html[dir="rtl"] .oj-padding-lg-end {
   .oj-fwk-icon-folder-open:before,
   .oj-expanded:not(.oj-tree-type) > a .oj-tree-node-icon:before,
   .oj-expanded > .oj-treeview-item-content > .oj-treeview-item-icon:before {
-    content: url("../../../alta/6.0.0/common/images/folder_open.svg");
+    content: url("../../../alta/7.1.0/common/images/folder_open.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-group-avatar,
 .oj-avatar-group-image .oj-avatar-placeholder {
-  background-image: url("../../../alta/6.0.0/common/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/common/images/sprites/sprite.svg");
   background-size: calc(332px * 1) calc(52px * 1);
   background-position: calc((-60px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(32px * 1);
@@ -1072,7 +1072,7 @@ html[dir="rtl"] .oj-padding-lg-end {
 .oj-hicontrast .oj-fwk-icon-group-avatar:before,
 .oj-hicontrast .oj-avatar-group-image .oj-avatar-placeholder:before,
 .oj-avatar-group-image .oj-hicontrast .oj-avatar-placeholder:before {
-  content: url("../../../alta/6.0.0/common/images/group_avatar.svg");
+  content: url("../../../alta/7.1.0/common/images/group_avatar.svg");
   width: 100%;
   height: 100%; }
 
@@ -1082,12 +1082,12 @@ html[dir="rtl"] .oj-padding-lg-end {
     background-image: none; }
   .oj-fwk-icon-group-avatar:before,
   .oj-avatar-group-image .oj-avatar-placeholder:before {
-    content: url("../../../alta/6.0.0/common/images/group_avatar.svg");
+    content: url("../../../alta/7.1.0/common/images/group_avatar.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-none {
-  background-image: url("../../../alta/6.0.0/common/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/common/images/sprites/sprite.svg");
   background-size: calc(332px * 1) calc(52px * 1);
   background-position: calc((-96px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(48px * 1);
@@ -1097,7 +1097,7 @@ html[dir="rtl"] .oj-padding-lg-end {
   background-image: none; }
 
 .oj-hicontrast .oj-fwk-icon-none:before {
-  content: url("../../../alta/6.0.0/common/images/none.svg");
+  content: url("../../../alta/7.1.0/common/images/none.svg");
   width: 100%;
   height: 100%; }
 
@@ -1105,13 +1105,13 @@ html[dir="rtl"] .oj-padding-lg-end {
   .oj-fwk-icon-none {
     background-image: none; }
   .oj-fwk-icon-none:before {
-    content: url("../../../alta/6.0.0/common/images/none.svg");
+    content: url("../../../alta/7.1.0/common/images/none.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-person-avatar,
 .oj-avatar-placeholder {
-  background-image: url("../../../alta/6.0.0/common/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/common/images/sprites/sprite.svg");
   background-size: calc(332px * 1) calc(52px * 1);
   background-position: calc((-148px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(32px * 1);
@@ -1123,7 +1123,7 @@ html[dir="rtl"] .oj-padding-lg-end {
 
 .oj-hicontrast .oj-fwk-icon-person-avatar:before,
 .oj-hicontrast .oj-avatar-placeholder:before {
-  content: url("../../../alta/6.0.0/common/images/person_avatar.svg");
+  content: url("../../../alta/7.1.0/common/images/person_avatar.svg");
   width: 100%;
   height: 100%; }
 
@@ -1133,14 +1133,14 @@ html[dir="rtl"] .oj-padding-lg-end {
     background-image: none; }
   .oj-fwk-icon-person-avatar:before,
   .oj-avatar-placeholder:before {
-    content: url("../../../alta/6.0.0/common/images/person_avatar.svg");
+    content: url("../../../alta/7.1.0/common/images/person_avatar.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-status-confirmation,
 .oj-message-status-icon.oj-message-confirmation-icon,
 .oj-progressstatus-done-icon {
-  background-image: url("../../../alta/6.0.0/common/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/common/images/sprites/sprite.svg");
   background-size: calc(332px * 1) calc(52px * 1);
   background-position: calc((-184px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(20px * 1);
@@ -1154,7 +1154,7 @@ html[dir="rtl"] .oj-padding-lg-end {
 .oj-hicontrast .oj-fwk-icon-status-confirmation:before,
 .oj-hicontrast .oj-message-status-icon.oj-message-confirmation-icon:before,
 .oj-hicontrast .oj-progressstatus-done-icon:before {
-  content: url("../../../alta/6.0.0/common/images/status_confirmation.svg");
+  content: url("../../../alta/7.1.0/common/images/status_confirmation.svg");
   width: 100%;
   height: 100%; }
 
@@ -1166,12 +1166,12 @@ html[dir="rtl"] .oj-padding-lg-end {
   .oj-fwk-icon-status-confirmation:before,
   .oj-message-status-icon.oj-message-confirmation-icon:before,
   .oj-progressstatus-done-icon:before {
-    content: url("../../../alta/6.0.0/common/images/status_confirmation.svg");
+    content: url("../../../alta/7.1.0/common/images/status_confirmation.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-status-confirmation2 {
-  background-image: url("../../../alta/6.0.0/common/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/common/images/sprites/sprite.svg");
   background-size: calc(332px * 1) calc(52px * 1);
   background-position: calc((-208px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(9px * 1);
@@ -1181,7 +1181,7 @@ html[dir="rtl"] .oj-padding-lg-end {
   background-image: none; }
 
 .oj-hicontrast .oj-fwk-icon-status-confirmation2:before {
-  content: url("../../../alta/6.0.0/common/images/status_confirmation2.svg");
+  content: url("../../../alta/7.1.0/common/images/status_confirmation2.svg");
   width: 100%;
   height: 100%; }
 
@@ -1189,14 +1189,14 @@ html[dir="rtl"] .oj-padding-lg-end {
   .oj-fwk-icon-status-confirmation2 {
     background-image: none; }
   .oj-fwk-icon-status-confirmation2:before {
-    content: url("../../../alta/6.0.0/common/images/status_confirmation2.svg");
+    content: url("../../../alta/7.1.0/common/images/status_confirmation2.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-status-error,
 .oj-message-status-icon.oj-message-error-icon,
 .oj-progressstatus-error-icon {
-  background-image: url("../../../alta/6.0.0/common/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/common/images/sprites/sprite.svg");
   background-size: calc(332px * 1) calc(52px * 1);
   background-position: calc((-221px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(20px * 1);
@@ -1210,7 +1210,7 @@ html[dir="rtl"] .oj-padding-lg-end {
 .oj-hicontrast .oj-fwk-icon-status-error:before,
 .oj-hicontrast .oj-message-status-icon.oj-message-error-icon:before,
 .oj-hicontrast .oj-progressstatus-error-icon:before {
-  content: url("../../../alta/6.0.0/common/images/status_error.svg");
+  content: url("../../../alta/7.1.0/common/images/status_error.svg");
   width: 100%;
   height: 100%; }
 
@@ -1222,12 +1222,12 @@ html[dir="rtl"] .oj-padding-lg-end {
   .oj-fwk-icon-status-error:before,
   .oj-message-status-icon.oj-message-error-icon:before,
   .oj-progressstatus-error-icon:before {
-    content: url("../../../alta/6.0.0/common/images/status_error.svg");
+    content: url("../../../alta/7.1.0/common/images/status_error.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-status-error2 {
-  background-image: url("../../../alta/6.0.0/common/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/common/images/sprites/sprite.svg");
   background-size: calc(332px * 1) calc(52px * 1);
   background-position: calc((-245px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(9px * 1);
@@ -1237,7 +1237,7 @@ html[dir="rtl"] .oj-padding-lg-end {
   background-image: none; }
 
 .oj-hicontrast .oj-fwk-icon-status-error2:before {
-  content: url("../../../alta/6.0.0/common/images/status_error2.svg");
+  content: url("../../../alta/7.1.0/common/images/status_error2.svg");
   width: 100%;
   height: 100%; }
 
@@ -1245,13 +1245,13 @@ html[dir="rtl"] .oj-padding-lg-end {
   .oj-fwk-icon-status-error2 {
     background-image: none; }
   .oj-fwk-icon-status-error2:before {
-    content: url("../../../alta/6.0.0/common/images/status_error2.svg");
+    content: url("../../../alta/7.1.0/common/images/status_error2.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-status-info,
 .oj-message-status-icon.oj-message-info-icon {
-  background-image: url("../../../alta/6.0.0/common/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/common/images/sprites/sprite.svg");
   background-size: calc(332px * 1) calc(52px * 1);
   background-position: calc((-258px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(20px * 1);
@@ -1263,7 +1263,7 @@ html[dir="rtl"] .oj-padding-lg-end {
 
 .oj-hicontrast .oj-fwk-icon-status-info:before,
 .oj-hicontrast .oj-message-status-icon.oj-message-info-icon:before {
-  content: url("../../../alta/6.0.0/common/images/status_info.svg");
+  content: url("../../../alta/7.1.0/common/images/status_info.svg");
   width: 100%;
   height: 100%; }
 
@@ -1273,12 +1273,12 @@ html[dir="rtl"] .oj-padding-lg-end {
     background-image: none; }
   .oj-fwk-icon-status-info:before,
   .oj-message-status-icon.oj-message-info-icon:before {
-    content: url("../../../alta/6.0.0/common/images/status_info.svg");
+    content: url("../../../alta/7.1.0/common/images/status_info.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-status-info2 {
-  background-image: url("../../../alta/6.0.0/common/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/common/images/sprites/sprite.svg");
   background-size: calc(332px * 1) calc(52px * 1);
   background-position: calc((-282px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(9px * 1);
@@ -1288,7 +1288,7 @@ html[dir="rtl"] .oj-padding-lg-end {
   background-image: none; }
 
 .oj-hicontrast .oj-fwk-icon-status-info2:before {
-  content: url("../../../alta/6.0.0/common/images/status_info2.svg");
+  content: url("../../../alta/7.1.0/common/images/status_info2.svg");
   width: 100%;
   height: 100%; }
 
@@ -1296,13 +1296,13 @@ html[dir="rtl"] .oj-padding-lg-end {
   .oj-fwk-icon-status-info2 {
     background-image: none; }
   .oj-fwk-icon-status-info2:before {
-    content: url("../../../alta/6.0.0/common/images/status_info2.svg");
+    content: url("../../../alta/7.1.0/common/images/status_info2.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-status-warning,
 .oj-message-status-icon.oj-message-warning-icon {
-  background-image: url("../../../alta/6.0.0/common/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/common/images/sprites/sprite.svg");
   background-size: calc(332px * 1) calc(52px * 1);
   background-position: calc((-295px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(20px * 1);
@@ -1314,7 +1314,7 @@ html[dir="rtl"] .oj-padding-lg-end {
 
 .oj-hicontrast .oj-fwk-icon-status-warning:before,
 .oj-hicontrast .oj-message-status-icon.oj-message-warning-icon:before {
-  content: url("../../../alta/6.0.0/common/images/status_warning.svg");
+  content: url("../../../alta/7.1.0/common/images/status_warning.svg");
   width: 100%;
   height: 100%; }
 
@@ -1324,12 +1324,12 @@ html[dir="rtl"] .oj-padding-lg-end {
     background-image: none; }
   .oj-fwk-icon-status-warning:before,
   .oj-message-status-icon.oj-message-warning-icon:before {
-    content: url("../../../alta/6.0.0/common/images/status_warning.svg");
+    content: url("../../../alta/7.1.0/common/images/status_warning.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-status-warning2 {
-  background-image: url("../../../alta/6.0.0/common/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/common/images/sprites/sprite.svg");
   background-size: calc(332px * 1) calc(52px * 1);
   background-position: calc((-319px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(9px * 1);
@@ -1339,7 +1339,7 @@ html[dir="rtl"] .oj-padding-lg-end {
   background-image: none; }
 
 .oj-hicontrast .oj-fwk-icon-status-warning2:before {
-  content: url("../../../alta/6.0.0/common/images/status_warning2.svg");
+  content: url("../../../alta/7.1.0/common/images/status_warning2.svg");
   width: 100%;
   height: 100%; }
 
@@ -1347,7 +1347,7 @@ html[dir="rtl"] .oj-padding-lg-end {
   .oj-fwk-icon-status-warning2 {
     background-image: none; }
   .oj-fwk-icon-status-warning2:before {
-    content: url("../../../alta/6.0.0/common/images/status_warning2.svg");
+    content: url("../../../alta/7.1.0/common/images/status_warning2.svg");
     width: 100%;
     height: 100%; } }
 
@@ -1355,7 +1355,7 @@ html[dir="rtl"] .oj-padding-lg-end {
          --------------------------------------------------------------------*/
 @font-face {
   font-family: 'Alta Icon Font';
-  src: url("../../../alta/6.0.0/web/fonts/JetFW_iconfont.woff") format("woff"); }
+  src: url("../../../alta/7.1.0/web/fonts/JetFW_iconfont.woff") format("woff"); }
 
 /*--------------------------------------------------------------------
          /  Generic style that can be used for widget images
@@ -1491,7 +1491,7 @@ a.oj-disabled.oj-clickable-icon-nocontext,
 .oj-collapsed a.oj-tree-loading > .oj-tree-node-icon.oj-tree-icon:before,
 .oj-rowexpander-lazyload-icon:before,
 .oj-listview-expanding-icon:before {
-  content: url("../../../alta/6.0.0/common/images/node_anim.gif"); }
+  content: url("../../../alta/7.1.0/common/images/node_anim.gif"); }
 
 .oj-fwk-icon-status-confirmation,
 .oj-message-status-icon.oj-message-confirmation-icon,
@@ -2022,7 +2022,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
   transform: rotate(-90deg); }
 
 .oj-fwk-icon-cbsingle-hover-selected {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((0px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2032,7 +2032,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
   background-image: none; }
 
 .oj-hicontrast .oj-fwk-icon-cbsingle-hover-selected:before {
-  content: url("../../../alta/6.0.0/web/images/cbsingle_hover_selected.svg");
+  content: url("../../../alta/7.1.0/web/images/cbsingle_hover_selected.svg");
   width: 100%;
   height: 100%; }
 
@@ -2040,12 +2040,12 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
   .oj-fwk-icon-cbsingle-hover-selected {
     background-image: none; }
   .oj-fwk-icon-cbsingle-hover-selected:before {
-    content: url("../../../alta/6.0.0/web/images/cbsingle_hover_selected.svg");
+    content: url("../../../alta/7.1.0/web/images/cbsingle_hover_selected.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-cbsingle-hover-unselected {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-20px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2055,7 +2055,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
   background-image: none; }
 
 .oj-hicontrast .oj-fwk-icon-cbsingle-hover-unselected:before {
-  content: url("../../../alta/6.0.0/web/images/cbsingle_hover_unselected.svg");
+  content: url("../../../alta/7.1.0/web/images/cbsingle_hover_unselected.svg");
   width: 100%;
   height: 100%; }
 
@@ -2063,13 +2063,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
   .oj-fwk-icon-cbsingle-hover-unselected {
     background-image: none; }
   .oj-fwk-icon-cbsingle-hover-unselected:before {
-    content: url("../../../alta/6.0.0/web/images/cbsingle_hover_unselected.svg");
+    content: url("../../../alta/7.1.0/web/images/cbsingle_hover_unselected.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-checkbox-dis-selected,
 .oj-checkboxset .oj-disabled.oj-selected .oj-radiocheckbox-icon {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-40px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2083,7 +2083,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 .oj-hicontrast .oj-fwk-icon-checkbox-dis-selected:before,
 .oj-hicontrast .oj-checkboxset .oj-disabled.oj-selected .oj-radiocheckbox-icon:before,
 .oj-checkboxset .oj-disabled.oj-selected .oj-hicontrast .oj-radiocheckbox-icon:before {
-  content: url("../../../alta/6.0.0/web/images/checkbox_dis_selected.svg");
+  content: url("../../../alta/7.1.0/web/images/checkbox_dis_selected.svg");
   width: 100%;
   height: 100%; }
 
@@ -2093,13 +2093,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-checkbox-dis-selected:before,
   .oj-checkboxset .oj-disabled.oj-selected .oj-radiocheckbox-icon:before {
-    content: url("../../../alta/6.0.0/web/images/checkbox_dis_selected.svg");
+    content: url("../../../alta/7.1.0/web/images/checkbox_dis_selected.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-checkbox-dis-unselected,
 .oj-checkboxset .oj-disabled .oj-radiocheckbox-icon {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-60px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2113,7 +2113,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 .oj-hicontrast .oj-fwk-icon-checkbox-dis-unselected:before,
 .oj-hicontrast .oj-checkboxset .oj-disabled .oj-radiocheckbox-icon:before,
 .oj-checkboxset .oj-disabled .oj-hicontrast .oj-radiocheckbox-icon:before {
-  content: url("../../../alta/6.0.0/web/images/checkbox_dis_unselected.svg");
+  content: url("../../../alta/7.1.0/web/images/checkbox_dis_unselected.svg");
   width: 100%;
   height: 100%; }
 
@@ -2123,13 +2123,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-checkbox-dis-unselected:before,
   .oj-checkboxset .oj-disabled .oj-radiocheckbox-icon:before {
-    content: url("../../../alta/6.0.0/web/images/checkbox_dis_unselected.svg");
+    content: url("../../../alta/7.1.0/web/images/checkbox_dis_unselected.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-checkbox-ena-selected,
 .oj-checkboxset .oj-selected .oj-radiocheckbox-icon {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-80px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2143,7 +2143,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 .oj-hicontrast .oj-fwk-icon-checkbox-ena-selected:before,
 .oj-hicontrast .oj-checkboxset .oj-selected .oj-radiocheckbox-icon:before,
 .oj-checkboxset .oj-selected .oj-hicontrast .oj-radiocheckbox-icon:before {
-  content: url("../../../alta/6.0.0/web/images/checkbox_ena_selected.svg");
+  content: url("../../../alta/7.1.0/web/images/checkbox_ena_selected.svg");
   width: 100%;
   height: 100%; }
 
@@ -2153,13 +2153,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-checkbox-ena-selected:before,
   .oj-checkboxset .oj-selected .oj-radiocheckbox-icon:before {
-    content: url("../../../alta/6.0.0/web/images/checkbox_ena_selected.svg");
+    content: url("../../../alta/7.1.0/web/images/checkbox_ena_selected.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-checkbox-ena-unselected,
 .oj-checkboxset .oj-radiocheckbox-icon {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-100px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2173,7 +2173,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 .oj-hicontrast .oj-fwk-icon-checkbox-ena-unselected:before,
 .oj-hicontrast .oj-checkboxset .oj-radiocheckbox-icon:before,
 .oj-checkboxset .oj-hicontrast .oj-radiocheckbox-icon:before {
-  content: url("../../../alta/6.0.0/web/images/checkbox_ena_unselected.svg");
+  content: url("../../../alta/7.1.0/web/images/checkbox_ena_unselected.svg");
   width: 100%;
   height: 100%; }
 
@@ -2183,13 +2183,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-checkbox-ena-unselected:before,
   .oj-checkboxset .oj-radiocheckbox-icon:before {
-    content: url("../../../alta/6.0.0/web/images/checkbox_ena_unselected.svg");
+    content: url("../../../alta/7.1.0/web/images/checkbox_ena_unselected.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-checkbox-pressed-selected,
 .oj-checkboxset-wrapper > .oj-active.oj-selected .oj-radiocheckbox-icon {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-120px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2203,7 +2203,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 .oj-hicontrast .oj-fwk-icon-checkbox-pressed-selected:before,
 .oj-hicontrast .oj-checkboxset-wrapper > .oj-active.oj-selected .oj-radiocheckbox-icon:before,
 .oj-checkboxset-wrapper > .oj-active.oj-selected .oj-hicontrast .oj-radiocheckbox-icon:before {
-  content: url("../../../alta/6.0.0/web/images/checkbox_pressed_selected.svg");
+  content: url("../../../alta/7.1.0/web/images/checkbox_pressed_selected.svg");
   width: 100%;
   height: 100%; }
 
@@ -2213,13 +2213,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-checkbox-pressed-selected:before,
   .oj-checkboxset-wrapper > .oj-active.oj-selected .oj-radiocheckbox-icon:before {
-    content: url("../../../alta/6.0.0/web/images/checkbox_pressed_selected.svg");
+    content: url("../../../alta/7.1.0/web/images/checkbox_pressed_selected.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-checkbox-pressed-unselected,
 .oj-checkboxset-wrapper > .oj-active .oj-radiocheckbox-icon {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-140px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2233,7 +2233,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 .oj-hicontrast .oj-fwk-icon-checkbox-pressed-unselected:before,
 .oj-hicontrast .oj-checkboxset-wrapper > .oj-active .oj-radiocheckbox-icon:before,
 .oj-checkboxset-wrapper > .oj-active .oj-hicontrast .oj-radiocheckbox-icon:before {
-  content: url("../../../alta/6.0.0/web/images/checkbox_pressed_unselected.svg");
+  content: url("../../../alta/7.1.0/web/images/checkbox_pressed_unselected.svg");
   width: 100%;
   height: 100%; }
 
@@ -2243,12 +2243,12 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-checkbox-pressed-unselected:before,
   .oj-checkboxset-wrapper > .oj-active .oj-radiocheckbox-icon:before {
-    content: url("../../../alta/6.0.0/web/images/checkbox_pressed_unselected.svg");
+    content: url("../../../alta/7.1.0/web/images/checkbox_pressed_unselected.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-checkbox-tristate-partial {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-160px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2258,7 +2258,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
   background-image: none; }
 
 .oj-hicontrast .oj-fwk-icon-checkbox-tristate-partial:before {
-  content: url("../../../alta/6.0.0/web/images/checkbox_tristate_partial.svg");
+  content: url("../../../alta/7.1.0/web/images/checkbox_tristate_partial.svg");
   width: 100%;
   height: 100%; }
 
@@ -2266,12 +2266,12 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
   .oj-fwk-icon-checkbox-tristate-partial {
     background-image: none; }
   .oj-fwk-icon-checkbox-tristate-partial:before {
-    content: url("../../../alta/6.0.0/web/images/checkbox_tristate_partial.svg");
+    content: url("../../../alta/7.1.0/web/images/checkbox_tristate_partial.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-checkbox-tristate-selected {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-180px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2281,7 +2281,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
   background-image: none; }
 
 .oj-hicontrast .oj-fwk-icon-checkbox-tristate-selected:before {
-  content: url("../../../alta/6.0.0/web/images/checkbox_tristate_selected.svg");
+  content: url("../../../alta/7.1.0/web/images/checkbox_tristate_selected.svg");
   width: 100%;
   height: 100%; }
 
@@ -2289,12 +2289,12 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
   .oj-fwk-icon-checkbox-tristate-selected {
     background-image: none; }
   .oj-fwk-icon-checkbox-tristate-selected:before {
-    content: url("../../../alta/6.0.0/web/images/checkbox_tristate_selected.svg");
+    content: url("../../../alta/7.1.0/web/images/checkbox_tristate_selected.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-checkbox-tristate-unselected {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-200px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2304,7 +2304,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
   background-image: none; }
 
 .oj-hicontrast .oj-fwk-icon-checkbox-tristate-unselected:before {
-  content: url("../../../alta/6.0.0/web/images/checkbox_tristate_unselected.svg");
+  content: url("../../../alta/7.1.0/web/images/checkbox_tristate_unselected.svg");
   width: 100%;
   height: 100%; }
 
@@ -2312,13 +2312,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
   .oj-fwk-icon-checkbox-tristate-unselected {
     background-image: none; }
   .oj-fwk-icon-checkbox-tristate-unselected:before {
-    content: url("../../../alta/6.0.0/web/images/checkbox_tristate_unselected.svg");
+    content: url("../../../alta/7.1.0/web/images/checkbox_tristate_unselected.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-checkmark-blue,
 .oj-train-button.oj-visited::before {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-220px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2329,7 +2329,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
   background-image: none; }
 
 .oj-hicontrast .oj-fwk-icon-checkmark-blue:before {
-  content: url("../../../alta/6.0.0/web/images/checkmark_blue.svg");
+  content: url("../../../alta/7.1.0/web/images/checkmark_blue.svg");
   width: 100%;
   height: 100%; }
 
@@ -2338,14 +2338,14 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
   .oj-train-button.oj-visited::before {
     background-image: none; }
   .oj-fwk-icon-checkmark-blue:before {
-    content: url("../../../alta/6.0.0/web/images/checkmark_blue.svg");
+    content: url("../../../alta/7.1.0/web/images/checkmark_blue.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-checkmark-white,
 .oj-train-button.oj-hover.oj-visited::before,
 .oj-visited.oj-train-button.oj-active::before {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-240px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2357,7 +2357,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
   background-image: none; }
 
 .oj-hicontrast .oj-fwk-icon-checkmark-white:before {
-  content: url("../../../alta/6.0.0/web/images/checkmark_white.svg");
+  content: url("../../../alta/7.1.0/web/images/checkmark_white.svg");
   width: 100%;
   height: 100%; }
 
@@ -2367,13 +2367,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
   .oj-visited.oj-train-button.oj-active::before {
     background-image: none; }
   .oj-fwk-icon-checkmark-white:before {
-    content: url("../../../alta/6.0.0/web/images/checkmark_white.svg");
+    content: url("../../../alta/7.1.0/web/images/checkmark_white.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-move-handle,
 .oj-listview-drag-handle {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-260px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(28px * 1);
@@ -2385,7 +2385,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 
 .oj-hicontrast .oj-fwk-icon-move-handle:before,
 .oj-hicontrast .oj-listview-drag-handle:before {
-  content: url("../../../alta/6.0.0/web/images/move_handle.svg");
+  content: url("../../../alta/7.1.0/web/images/move_handle.svg");
   width: 100%;
   height: 100%; }
 
@@ -2395,13 +2395,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-move-handle:before,
   .oj-listview-drag-handle:before {
-    content: url("../../../alta/6.0.0/web/images/move_handle.svg");
+    content: url("../../../alta/7.1.0/web/images/move_handle.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-radio-dis-selected,
 .oj-radioset .oj-disabled.oj-selected .oj-radiocheckbox-icon {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-292px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2415,7 +2415,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 .oj-hicontrast .oj-fwk-icon-radio-dis-selected:before,
 .oj-hicontrast .oj-radioset .oj-disabled.oj-selected .oj-radiocheckbox-icon:before,
 .oj-radioset .oj-disabled.oj-selected .oj-hicontrast .oj-radiocheckbox-icon:before {
-  content: url("../../../alta/6.0.0/web/images/radio_dis_selected.svg");
+  content: url("../../../alta/7.1.0/web/images/radio_dis_selected.svg");
   width: 100%;
   height: 100%; }
 
@@ -2425,13 +2425,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-radio-dis-selected:before,
   .oj-radioset .oj-disabled.oj-selected .oj-radiocheckbox-icon:before {
-    content: url("../../../alta/6.0.0/web/images/radio_dis_selected.svg");
+    content: url("../../../alta/7.1.0/web/images/radio_dis_selected.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-radio-dis-unselected,
 .oj-radioset .oj-disabled .oj-radiocheckbox-icon {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-312px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2445,7 +2445,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 .oj-hicontrast .oj-fwk-icon-radio-dis-unselected:before,
 .oj-hicontrast .oj-radioset .oj-disabled .oj-radiocheckbox-icon:before,
 .oj-radioset .oj-disabled .oj-hicontrast .oj-radiocheckbox-icon:before {
-  content: url("../../../alta/6.0.0/web/images/radio_dis_unselected.svg");
+  content: url("../../../alta/7.1.0/web/images/radio_dis_unselected.svg");
   width: 100%;
   height: 100%; }
 
@@ -2455,13 +2455,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-radio-dis-unselected:before,
   .oj-radioset .oj-disabled .oj-radiocheckbox-icon:before {
-    content: url("../../../alta/6.0.0/web/images/radio_dis_unselected.svg");
+    content: url("../../../alta/7.1.0/web/images/radio_dis_unselected.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-radio-ena-selected,
 .oj-radioset .oj-selected .oj-radiocheckbox-icon {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-332px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2475,7 +2475,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 .oj-hicontrast .oj-fwk-icon-radio-ena-selected:before,
 .oj-hicontrast .oj-radioset .oj-selected .oj-radiocheckbox-icon:before,
 .oj-radioset .oj-selected .oj-hicontrast .oj-radiocheckbox-icon:before {
-  content: url("../../../alta/6.0.0/web/images/radio_ena_selected.svg");
+  content: url("../../../alta/7.1.0/web/images/radio_ena_selected.svg");
   width: 100%;
   height: 100%; }
 
@@ -2485,13 +2485,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-radio-ena-selected:before,
   .oj-radioset .oj-selected .oj-radiocheckbox-icon:before {
-    content: url("../../../alta/6.0.0/web/images/radio_ena_selected.svg");
+    content: url("../../../alta/7.1.0/web/images/radio_ena_selected.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-radio-ena-unselected,
 .oj-radioset .oj-radiocheckbox-icon {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-352px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2505,7 +2505,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 .oj-hicontrast .oj-fwk-icon-radio-ena-unselected:before,
 .oj-hicontrast .oj-radioset .oj-radiocheckbox-icon:before,
 .oj-radioset .oj-hicontrast .oj-radiocheckbox-icon:before {
-  content: url("../../../alta/6.0.0/web/images/radio_ena_unselected.svg");
+  content: url("../../../alta/7.1.0/web/images/radio_ena_unselected.svg");
   width: 100%;
   height: 100%; }
 
@@ -2515,13 +2515,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-radio-ena-unselected:before,
   .oj-radioset .oj-radiocheckbox-icon:before {
-    content: url("../../../alta/6.0.0/web/images/radio_ena_unselected.svg");
+    content: url("../../../alta/7.1.0/web/images/radio_ena_unselected.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-radio-pressed-selected,
 .oj-radioset-wrapper > .oj-selected.oj-active .oj-radiocheckbox-icon {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-372px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2535,7 +2535,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 .oj-hicontrast .oj-fwk-icon-radio-pressed-selected:before,
 .oj-hicontrast .oj-radioset-wrapper > .oj-selected.oj-active .oj-radiocheckbox-icon:before,
 .oj-radioset-wrapper > .oj-selected.oj-active .oj-hicontrast .oj-radiocheckbox-icon:before {
-  content: url("../../../alta/6.0.0/web/images/radio_pressed_selected.svg");
+  content: url("../../../alta/7.1.0/web/images/radio_pressed_selected.svg");
   width: 100%;
   height: 100%; }
 
@@ -2545,13 +2545,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-radio-pressed-selected:before,
   .oj-radioset-wrapper > .oj-selected.oj-active .oj-radiocheckbox-icon:before {
-    content: url("../../../alta/6.0.0/web/images/radio_pressed_selected.svg");
+    content: url("../../../alta/7.1.0/web/images/radio_pressed_selected.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-radio-pressed-unselected,
 .oj-radioset-wrapper > .oj-active .oj-radiocheckbox-icon {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-392px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2565,7 +2565,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 .oj-hicontrast .oj-fwk-icon-radio-pressed-unselected:before,
 .oj-hicontrast .oj-radioset-wrapper > .oj-active .oj-radiocheckbox-icon:before,
 .oj-radioset-wrapper > .oj-active .oj-hicontrast .oj-radiocheckbox-icon:before {
-  content: url("../../../alta/6.0.0/web/images/radio_pressed_unselected.svg");
+  content: url("../../../alta/7.1.0/web/images/radio_pressed_unselected.svg");
   width: 100%;
   height: 100%; }
 
@@ -2575,13 +2575,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-radio-pressed-unselected:before,
   .oj-radioset-wrapper > .oj-active .oj-radiocheckbox-icon:before {
-    content: url("../../../alta/6.0.0/web/images/radio_pressed_unselected.svg");
+    content: url("../../../alta/7.1.0/web/images/radio_pressed_unselected.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-spinner-00,
 .oj-pulltorefresh-icon-initial {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-412px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(40px * 1);
@@ -2593,7 +2593,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 
 .oj-hicontrast .oj-fwk-icon-spinner-00:before,
 .oj-hicontrast .oj-pulltorefresh-icon-initial:before {
-  content: url("../../../alta/6.0.0/web/images/spinner_00.svg");
+  content: url("../../../alta/7.1.0/web/images/spinner_00.svg");
   width: 100%;
   height: 100%; }
 
@@ -2603,13 +2603,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-spinner-00:before,
   .oj-pulltorefresh-icon-initial:before {
-    content: url("../../../alta/6.0.0/web/images/spinner_00.svg");
+    content: url("../../../alta/7.1.0/web/images/spinner_00.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-spinner-10,
 .oj-pulltorefresh-icon-10-percent {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-456px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(40px * 1);
@@ -2621,7 +2621,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 
 .oj-hicontrast .oj-fwk-icon-spinner-10:before,
 .oj-hicontrast .oj-pulltorefresh-icon-10-percent:before {
-  content: url("../../../alta/6.0.0/web/images/spinner_10.svg");
+  content: url("../../../alta/7.1.0/web/images/spinner_10.svg");
   width: 100%;
   height: 100%; }
 
@@ -2631,13 +2631,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-spinner-10:before,
   .oj-pulltorefresh-icon-10-percent:before {
-    content: url("../../../alta/6.0.0/web/images/spinner_10.svg");
+    content: url("../../../alta/7.1.0/web/images/spinner_10.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-spinner-20,
 .oj-pulltorefresh-icon-20-percent {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-500px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(40px * 1);
@@ -2649,7 +2649,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 
 .oj-hicontrast .oj-fwk-icon-spinner-20:before,
 .oj-hicontrast .oj-pulltorefresh-icon-20-percent:before {
-  content: url("../../../alta/6.0.0/web/images/spinner_20.svg");
+  content: url("../../../alta/7.1.0/web/images/spinner_20.svg");
   width: 100%;
   height: 100%; }
 
@@ -2659,13 +2659,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-spinner-20:before,
   .oj-pulltorefresh-icon-20-percent:before {
-    content: url("../../../alta/6.0.0/web/images/spinner_20.svg");
+    content: url("../../../alta/7.1.0/web/images/spinner_20.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-spinner-30,
 .oj-pulltorefresh-icon-30-percent {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-544px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(40px * 1);
@@ -2677,7 +2677,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 
 .oj-hicontrast .oj-fwk-icon-spinner-30:before,
 .oj-hicontrast .oj-pulltorefresh-icon-30-percent:before {
-  content: url("../../../alta/6.0.0/web/images/spinner_30.svg");
+  content: url("../../../alta/7.1.0/web/images/spinner_30.svg");
   width: 100%;
   height: 100%; }
 
@@ -2687,13 +2687,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-spinner-30:before,
   .oj-pulltorefresh-icon-30-percent:before {
-    content: url("../../../alta/6.0.0/web/images/spinner_30.svg");
+    content: url("../../../alta/7.1.0/web/images/spinner_30.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-spinner-40,
 .oj-pulltorefresh-icon-40-percent {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-588px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(40px * 1);
@@ -2705,7 +2705,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 
 .oj-hicontrast .oj-fwk-icon-spinner-40:before,
 .oj-hicontrast .oj-pulltorefresh-icon-40-percent:before {
-  content: url("../../../alta/6.0.0/web/images/spinner_40.svg");
+  content: url("../../../alta/7.1.0/web/images/spinner_40.svg");
   width: 100%;
   height: 100%; }
 
@@ -2715,13 +2715,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-spinner-40:before,
   .oj-pulltorefresh-icon-40-percent:before {
-    content: url("../../../alta/6.0.0/web/images/spinner_40.svg");
+    content: url("../../../alta/7.1.0/web/images/spinner_40.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-spinner-50,
 .oj-pulltorefresh-icon-50-percent {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-632px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(40px * 1);
@@ -2733,7 +2733,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 
 .oj-hicontrast .oj-fwk-icon-spinner-50:before,
 .oj-hicontrast .oj-pulltorefresh-icon-50-percent:before {
-  content: url("../../../alta/6.0.0/web/images/spinner_50.svg");
+  content: url("../../../alta/7.1.0/web/images/spinner_50.svg");
   width: 100%;
   height: 100%; }
 
@@ -2743,13 +2743,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-spinner-50:before,
   .oj-pulltorefresh-icon-50-percent:before {
-    content: url("../../../alta/6.0.0/web/images/spinner_50.svg");
+    content: url("../../../alta/7.1.0/web/images/spinner_50.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-spinner-60,
 .oj-pulltorefresh-icon-60-percent {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-676px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(40px * 1);
@@ -2761,7 +2761,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 
 .oj-hicontrast .oj-fwk-icon-spinner-60:before,
 .oj-hicontrast .oj-pulltorefresh-icon-60-percent:before {
-  content: url("../../../alta/6.0.0/web/images/spinner_60.svg");
+  content: url("../../../alta/7.1.0/web/images/spinner_60.svg");
   width: 100%;
   height: 100%; }
 
@@ -2771,13 +2771,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-spinner-60:before,
   .oj-pulltorefresh-icon-60-percent:before {
-    content: url("../../../alta/6.0.0/web/images/spinner_60.svg");
+    content: url("../../../alta/7.1.0/web/images/spinner_60.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-spinner-70,
 .oj-pulltorefresh-icon-70-percent {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-720px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(40px * 1);
@@ -2789,7 +2789,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 
 .oj-hicontrast .oj-fwk-icon-spinner-70:before,
 .oj-hicontrast .oj-pulltorefresh-icon-70-percent:before {
-  content: url("../../../alta/6.0.0/web/images/spinner_70.svg");
+  content: url("../../../alta/7.1.0/web/images/spinner_70.svg");
   width: 100%;
   height: 100%; }
 
@@ -2799,13 +2799,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-spinner-70:before,
   .oj-pulltorefresh-icon-70-percent:before {
-    content: url("../../../alta/6.0.0/web/images/spinner_70.svg");
+    content: url("../../../alta/7.1.0/web/images/spinner_70.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-spinner-80,
 .oj-pulltorefresh-icon-80-percent {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-764px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(40px * 1);
@@ -2817,7 +2817,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 
 .oj-hicontrast .oj-fwk-icon-spinner-80:before,
 .oj-hicontrast .oj-pulltorefresh-icon-80-percent:before {
-  content: url("../../../alta/6.0.0/web/images/spinner_80.svg");
+  content: url("../../../alta/7.1.0/web/images/spinner_80.svg");
   width: 100%;
   height: 100%; }
 
@@ -2827,13 +2827,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-spinner-80:before,
   .oj-pulltorefresh-icon-80-percent:before {
-    content: url("../../../alta/6.0.0/web/images/spinner_80.svg");
+    content: url("../../../alta/7.1.0/web/images/spinner_80.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-spinner-90,
 .oj-pulltorefresh-icon-90-percent {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-808px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(40px * 1);
@@ -2845,7 +2845,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 
 .oj-hicontrast .oj-fwk-icon-spinner-90:before,
 .oj-hicontrast .oj-pulltorefresh-icon-90-percent:before {
-  content: url("../../../alta/6.0.0/web/images/spinner_90.svg");
+  content: url("../../../alta/7.1.0/web/images/spinner_90.svg");
   width: 100%;
   height: 100%; }
 
@@ -2855,13 +2855,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-spinner-90:before,
   .oj-pulltorefresh-icon-90-percent:before {
-    content: url("../../../alta/6.0.0/web/images/spinner_90.svg");
+    content: url("../../../alta/7.1.0/web/images/spinner_90.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-spinner-static,
 .oj-progress-circle-overlay {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-852px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(32px * 1);
@@ -2873,7 +2873,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 
 .oj-hicontrast .oj-fwk-icon-spinner-static:before,
 .oj-hicontrast .oj-progress-circle-overlay:before {
-  content: url("../../../alta/6.0.0/web/images/spinner_static.svg");
+  content: url("../../../alta/7.1.0/web/images/spinner_static.svg");
   width: 100%;
   height: 100%; }
 
@@ -2883,14 +2883,14 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-spinner-static:before,
   .oj-progress-circle-overlay:before {
-    content: url("../../../alta/6.0.0/web/images/spinner_static.svg");
+    content: url("../../../alta/7.1.0/web/images/spinner_static.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-status-confirmation,
 .oj-message-status-icon.oj-message-confirmation-icon,
 .oj-progressstatus-done-icon {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-888px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2904,7 +2904,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 .oj-hicontrast .oj-fwk-icon-status-confirmation:before,
 .oj-hicontrast .oj-message-status-icon.oj-message-confirmation-icon:before,
 .oj-hicontrast .oj-progressstatus-done-icon:before {
-  content: url("../../../alta/6.0.0/web/images/status_confirmation.svg");
+  content: url("../../../alta/7.1.0/web/images/status_confirmation.svg");
   width: 100%;
   height: 100%; }
 
@@ -2916,14 +2916,14 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
   .oj-fwk-icon-status-confirmation:before,
   .oj-message-status-icon.oj-message-confirmation-icon:before,
   .oj-progressstatus-done-icon:before {
-    content: url("../../../alta/6.0.0/web/images/status_confirmation.svg");
+    content: url("../../../alta/7.1.0/web/images/status_confirmation.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-status-error,
 .oj-message-status-icon.oj-message-error-icon,
 .oj-progressstatus-error-icon {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-908px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2937,7 +2937,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 .oj-hicontrast .oj-fwk-icon-status-error:before,
 .oj-hicontrast .oj-message-status-icon.oj-message-error-icon:before,
 .oj-hicontrast .oj-progressstatus-error-icon:before {
-  content: url("../../../alta/6.0.0/web/images/status_error.svg");
+  content: url("../../../alta/7.1.0/web/images/status_error.svg");
   width: 100%;
   height: 100%; }
 
@@ -2949,13 +2949,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
   .oj-fwk-icon-status-error:before,
   .oj-message-status-icon.oj-message-error-icon:before,
   .oj-progressstatus-error-icon:before {
-    content: url("../../../alta/6.0.0/web/images/status_error.svg");
+    content: url("../../../alta/7.1.0/web/images/status_error.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-status-info,
 .oj-message-status-icon.oj-message-info-icon {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-928px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2967,7 +2967,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 
 .oj-hicontrast .oj-fwk-icon-status-info:before,
 .oj-hicontrast .oj-message-status-icon.oj-message-info-icon:before {
-  content: url("../../../alta/6.0.0/web/images/status_info.svg");
+  content: url("../../../alta/7.1.0/web/images/status_info.svg");
   width: 100%;
   height: 100%; }
 
@@ -2977,13 +2977,13 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-status-info:before,
   .oj-message-status-icon.oj-message-info-icon:before {
-    content: url("../../../alta/6.0.0/web/images/status_info.svg");
+    content: url("../../../alta/7.1.0/web/images/status_info.svg");
     width: 100%;
     height: 100%; } }
 
 .oj-fwk-icon-status-warning,
 .oj-message-status-icon.oj-message-warning-icon {
-  background-image: url("../../../alta/6.0.0/web/images/sprites/sprite.svg");
+  background-image: url("../../../alta/7.1.0/web/images/sprites/sprite.svg");
   background-size: calc(968px * 1) calc(44px * 1);
   background-position: calc((-948px - 2px) * 1) calc((0px - 2px) * 1);
   width: calc(16px * 1);
@@ -2995,7 +2995,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
 
 .oj-hicontrast .oj-fwk-icon-status-warning:before,
 .oj-hicontrast .oj-message-status-icon.oj-message-warning-icon:before {
-  content: url("../../../alta/6.0.0/web/images/status_warning.svg");
+  content: url("../../../alta/7.1.0/web/images/status_warning.svg");
   width: 100%;
   height: 100%; }
 
@@ -3005,7 +3005,7 @@ html[dir="rtl"] .oj-navigationlist-slider .oj-navigationlist-collapse-icon:befor
     background-image: none; }
   .oj-fwk-icon-status-warning:before,
   .oj-message-status-icon.oj-message-warning-icon:before {
-    content: url("../../../alta/6.0.0/web/images/status_warning.svg");
+    content: url("../../../alta/7.1.0/web/images/status_warning.svg");
     width: 100%;
     height: 100%; } }
 
@@ -8578,7 +8578,7 @@ html[dir="rtl"] .oj-progress-bar-end-label {
 .oj-progress-bar-overlay {
   height: 100%;
   opacity: 0;
-  background: url("../../../alta/6.0.0/web/images/animated-overlay.gif"); }
+  background: url("../../../alta/7.1.0/web/images/animated-overlay.gif"); }
 
 html[dir="rtl"] .oj-progress-bar-overlay {
   -webkit-transform: scaleX(-1);
@@ -8734,7 +8734,7 @@ html[dir="rtl"] .oj-progress-bar-overlay {
   height: 40px; }
 
 .oj-pulltorefresh-icon-full:before {
-  content: url("../../../alta/6.0.0/web/images/spinner_full.gif");
+  content: url("../../../alta/7.1.0/web/images/spinner_full.gif");
   -webkit-transform: translate(-37.5%, -37.5%) scale(0.25);
   -ms-transform: translate(-37.5%, -37.5%) scale(0.25);
   transform: translate(-37.5%, -37.5%) scale(0.25); }
@@ -10143,7 +10143,7 @@ html[dir="rtl"] .oj-table-grid-display .oj-table-column-header-cell.oj-table-vgr
   margin: auto; }
 
 .oj-table-loading-icon:before {
-  content: url("../../../alta/6.0.0/web/images/spinner_full.gif");
+  content: url("../../../alta/7.1.0/web/images/spinner_full.gif");
   -webkit-transform: translate(-37.5%, -37.5%) scale(0.25);
   -ms-transform: translate(-37.5%, -37.5%) scale(0.25);
   transform: translate(-37.5%, -37.5%) scale(0.25); }
@@ -11004,7 +11004,7 @@ html[dir="rtl"] .oj-datagrid.oj-focus .oj-datagrid-end-header-cell.oj-focus-high
   margin: auto; }
 
 .oj-datagrid-loading-icon:before {
-  content: url("../../../alta/6.0.0/web/images/spinner_full.gif");
+  content: url("../../../alta/7.1.0/web/images/spinner_full.gif");
   -webkit-transform: translate(-37.5%, -37.5%) scale(0.25);
   -ms-transform: translate(-37.5%, -37.5%) scale(0.25);
   transform: translate(-37.5%, -37.5%) scale(0.25); }
@@ -11614,7 +11614,7 @@ html:not([dir="rtl"]) .oj-listview.oj-full-width > .oj-listview-card-layout > li
   margin: auto; }
 
 .oj-listview-loading-icon:before {
-  content: url("../../../alta/6.0.0/web/images/spinner_full.gif");
+  content: url("../../../alta/7.1.0/web/images/spinner_full.gif");
   -webkit-transform: translate(-37.5%, -37.5%) scale(0.25);
   -ms-transform: translate(-37.5%, -37.5%) scale(0.25);
   transform: translate(-37.5%, -37.5%) scale(0.25); }
@@ -11828,40 +11828,40 @@ oj-legend {
   color: rgba(0, 0, 0, 0.8); }
 
 html:not([dir="rtl"]) .oj-legend-section-open-icon {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/legend/open-ena.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/legend/open-ena.png"); }
 
 html[dir="rtl"] .oj-legend-section-open-icon {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/legend/open-ena-r.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/legend/open-ena-r.png"); }
 
 html:not([dir="rtl"]) .oj-legend-section-open-icon.oj-hover {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/legend/open-ovr.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/legend/open-ovr.png"); }
 
 html[dir="rtl"] .oj-legend-section-open-icon.oj-hover {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/legend/open-ovr-r.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/legend/open-ovr-r.png"); }
 
 html:not([dir="rtl"]) .oj-legend-section-open-icon.oj-active {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/legend/open-dwn.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/legend/open-dwn.png"); }
 
 html[dir="rtl"] .oj-legend-section-open-icon.oj-active {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/legend/open-dwn-r.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/legend/open-dwn-r.png"); }
 
 html:not([dir="rtl"]) .oj-legend-section-close-icon {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/legend/closed-ena.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/legend/closed-ena.png"); }
 
 html[dir="rtl"] .oj-legend-section-close-icon {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/legend/closed-ena-r.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/legend/closed-ena-r.png"); }
 
 html:not([dir="rtl"]) .oj-legend-section-close-icon.oj-hover {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/legend/closed-ovr.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/legend/closed-ovr.png"); }
 
 html[dir="rtl"] .oj-legend-section-close-icon.oj-hover {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/legend/closed-ovr-r.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/legend/closed-ovr-r.png"); }
 
 html:not([dir="rtl"]) .oj-legend-section-close-icon.oj-active {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/legend/closed-dwn.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/legend/closed-dwn.png"); }
 
 html[dir="rtl"] .oj-legend-section-close-icon.oj-active {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/legend/closed-dwn-r.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/legend/closed-dwn-r.png"); }
 
 .oj-legend-title {
   color: rgba(0, 0, 0, 0.55); }
@@ -11884,31 +11884,31 @@ oj-chart {
   height: 300px; }
 
 .oj-chart-select-icon {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/chart/marquee-up.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/chart/marquee-up.png"); }
 
 .oj-chart-select-icon.oj-active {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/chart/marquee-down.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/chart/marquee-down.png"); }
 
 .oj-chart-select-icon.oj-hover {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/chart/marquee-hover.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/chart/marquee-hover.png"); }
 
 .oj-chart-pan-icon {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/chart/pan-up.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/chart/pan-up.png"); }
 
 .oj-chart-pan-icon.oj-active {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/chart/pan-down.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/chart/pan-down.png"); }
 
 .oj-chart-pan-icon.oj-hover {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/chart/pan-hover.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/chart/pan-hover.png"); }
 
 .oj-chart-zoom-icon {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/chart/zoom-up.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/chart/zoom-up.png"); }
 
 .oj-chart-zoom-icon.oj-active {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/chart/zoom-down.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/chart/zoom-down.png"); }
 
 .oj-chart-zoom-icon.oj-hover {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/chart/zoom-hover.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/chart/zoom-hover.png"); }
 
 .oj-chart-data-label {
   font-size: 0.85714rem; }
@@ -12201,35 +12201,35 @@ html[dir="rtl"] .oj-gantt-tooltip-value {
 
 /* Styling for the zoom in icon */
 .oj-gantt-zoomin-icon {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/common/func_plus_16_ena.png");
+  background-image: url("../../../alta/7.1.0/common/images/dvt/common/func_plus_16_ena.png");
   background-color: #ffffff;
   border-color: #e5e6e6; }
 
 /* Styling for the zoom in icon on hover */
 .oj-gantt-zoomin-icon.oj-hover {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/common/func_plus_16_hov.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/common/func_plus_16_hov.png"); }
 
 /* Styling for the zoom in icon on active */
 .oj-gantt-zoomin-icon.oj-active {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/common/func_plus_16_act.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/common/func_plus_16_act.png"); }
 
 /* Styling for the zoom in icon when disabled */
 .oj-gantt-zoomin-icon.oj-disabled {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/common/func_plus_16_dis.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/common/func_plus_16_dis.png"); }
 
 .oj-gantt-zoomout-icon {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/common/func_minus_16_ena.png");
+  background-image: url("../../../alta/7.1.0/common/images/dvt/common/func_minus_16_ena.png");
   background-color: #ffffff;
   border-color: #e5e6e6; }
 
 .oj-gantt-zoomout-icon.oj-hover {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/common/func_minus_16_hov.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/common/func_minus_16_hov.png"); }
 
 .oj-gantt-zoomout-icon.oj-active {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/common/func_minus_16_act.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/common/func_minus_16_act.png"); }
 
 .oj-gantt-zoomout-icon.oj-disabled {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/common/func_minus_16_dis.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/common/func_minus_16_dis.png"); }
 
 /* Styling for all dependency lines */
 .oj-gantt-dependency-line {
@@ -12463,40 +12463,40 @@ oj-treemap {
   color: rgba(0, 0, 0, 0.8); }
 
 html:not([dir="rtl"]) .oj-treemap-isolate-icon {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/treemap/s_max_ena.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/treemap/s_max_ena.png"); }
 
 html[dir="rtl"] .oj-treemap-isolate-icon {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/treemap/s_max_ena_rtl.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/treemap/s_max_ena_rtl.png"); }
 
 html:not([dir="rtl"]) .oj-treemap-restore-icon {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/treemap/s_restore_ena.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/treemap/s_restore_ena.png"); }
 
 html[dir="rtl"] .oj-treemap-restore-icon {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/treemap/s_restore_ena_rtl.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/treemap/s_restore_ena_rtl.png"); }
 
 html:not([dir="rtl"]) .oj-treemap-isolate-icon.oj-hover {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/treemap/s_max_ovr.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/treemap/s_max_ovr.png"); }
 
 html[dir="rtl"] .oj-treemap-isolate-icon.oj-hover {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/treemap/s_max_ovr_rtl.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/treemap/s_max_ovr_rtl.png"); }
 
 html:not([dir="rtl"]) .oj-treemap-restore-icon.oj-hover {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/treemap/s_restore_ovr.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/treemap/s_restore_ovr.png"); }
 
 html[dir="rtl"] .oj-treemap-restore-icon.oj-hover {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/treemap/s_restore_ovr_rtl.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/treemap/s_restore_ovr_rtl.png"); }
 
 html:not([dir="rtl"]) .oj-treemap-isolate-icon.oj-active {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/treemap/s_max_dwn.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/treemap/s_max_dwn.png"); }
 
 html[dir="rtl"] .oj-treemap-isolate-icon.oj-active {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/treemap/s_max_dwn_rtl.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/treemap/s_max_dwn_rtl.png"); }
 
 html:not([dir="rtl"]) .oj-treemap-restore-icon.oj-active {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/treemap/s_restore_dwn.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/treemap/s_restore_dwn.png"); }
 
 html[dir="rtl"] .oj-treemap-restore-icon.oj-active {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/treemap/s_restore_dwn_rtl.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/treemap/s_restore_dwn_rtl.png"); }
 
 .oj-treemap-attribute-type-text {
   color: rgba(0, 0, 0, 0.6);
@@ -12562,22 +12562,22 @@ oj-sunburst {
   color: rgba(0, 0, 0, 0.8); }
 
 .oj-sunburst-expand-icon {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/sunburst/node_expand.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/sunburst/node_expand.png"); }
 
 .oj-sunburst-collapse-icon {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/sunburst/node_collapse.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/sunburst/node_collapse.png"); }
 
 .oj-sunburst-expand-icon.oj-hover {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/sunburst/node_expand_ovr.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/sunburst/node_expand_ovr.png"); }
 
 .oj-sunburst-collapse-icon.oj-hover {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/sunburst/node_collapse_ovr.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/sunburst/node_collapse_ovr.png"); }
 
 .oj-sunburst-expand-icon.oj-active {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/sunburst/node_expand_ovr.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/sunburst/node_expand_ovr.png"); }
 
 .oj-sunburst-collapse-icon.oj-active {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/sunburst/node_collapse_ovr.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/sunburst/node_collapse_ovr.png"); }
 
 .oj-sunburst-attribute-type-text {
   color: rgba(0, 0, 0, 0.6);
@@ -12718,10 +12718,10 @@ oj-timeline:not(.oj-complete) {
   border-color: #4b4d4e; }
 
 .oj-timeline-overview-window-handle-horizontal {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/common/drag_horizontal.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/common/drag_horizontal.png"); }
 
 .oj-timeline-overview-window-handle-vertical {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/common/drag_vertical.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/common/drag_vertical.png"); }
 
 .oj-timeline-reference-object {
   color: #ed6647; }
@@ -12741,32 +12741,32 @@ oj-timeline:not(.oj-complete) {
   font-size: 0.85714rem; }
 
 .oj-timeline-zoomin-icon {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/common/func_plus_16_ena.png");
+  background-image: url("../../../alta/7.1.0/common/images/dvt/common/func_plus_16_ena.png");
   background-color: #ffffff;
   border-color: #e5e6e6; }
 
 .oj-timeline-zoomin-icon.oj-hover {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/common/func_plus_16_hov.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/common/func_plus_16_hov.png"); }
 
 .oj-timeline-zoomin-icon.oj-active {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/common/func_plus_16_act.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/common/func_plus_16_act.png"); }
 
 .oj-timeline-zoomin-icon.oj-disabled {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/common/func_plus_16_dis.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/common/func_plus_16_dis.png"); }
 
 .oj-timeline-zoomout-icon {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/common/func_minus_16_ena.png");
+  background-image: url("../../../alta/7.1.0/common/images/dvt/common/func_minus_16_ena.png");
   background-color: #ffffff;
   border-color: #e5e6e6; }
 
 .oj-timeline-zoomout-icon.oj-hover {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/common/func_minus_16_hov.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/common/func_minus_16_hov.png"); }
 
 .oj-timeline-zoomout-icon.oj-active {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/common/func_minus_16_act.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/common/func_minus_16_act.png"); }
 
 .oj-timeline-zoomout-icon.oj-disabled {
-  background-image: url("../../../alta/6.0.0/common/images/dvt/common/func_minus_16_dis.png"); }
+  background-image: url("../../../alta/7.1.0/common/images/dvt/common/func_minus_16_dis.png"); }
 
 /* messaging */
 /* --------------------------------------------------------------- */
@@ -14081,7 +14081,7 @@ html[dir="rtl"] .oj-listbox-no-results {
   margin: auto; }
 
 .oj-listbox-loading-icon:before {
-  content: url("../../../alta/6.0.0/web/images/spinner_full.gif");
+  content: url("../../../alta/7.1.0/web/images/spinner_full.gif");
   -webkit-transform: translate(-42.5%, -42.5%) scale(0.15);
   -ms-transform: translate(-42.5%, -42.5%) scale(0.15);
   transform: translate(-42.5%, -42.5%) scale(0.15); }
@@ -16865,7 +16865,7 @@ oj-color-palette:not(.oj-complete) {
   /* Color Hardcoded because this value is not related to theming and regardless of theme the swatch for none will be white */
   background-color: #ffffff;
   display: inline-block;
-  background-image: url("../../../alta/6.0.0/common/images/none.svg");
+  background-image: url("../../../alta/7.1.0/common/images/none.svg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
@@ -17096,7 +17096,7 @@ html .oj-colorspectrum-container .oj-form-control {
   border: 2px solid #E65A66; }
 
 .oj-colorspectrum-alpha-bg {
-  background-image: url("../../../alta/6.0.0/common/images/spectrum-opacity-slider-bg.png");
+  background-image: url("../../../alta/7.1.0/common/images/spectrum-opacity-slider-bg.png");
   position: absolute;
   height: 0;
   width: 0;
@@ -21885,6 +21885,9 @@ a.oj-navigationlist-item-content .oj-navigationlist-item-label {
 
 .oj-progress-bar-value {
   background: red; }
+
+.oj-train {
+  color: green; }
 
 /* Notifications */
 .oj-messages-notification {

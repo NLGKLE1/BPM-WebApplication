@@ -9,11 +9,11 @@
   <link rel="icon" href="css/images/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="css/index.css" type="text/css" />
 
-  <!-- This is the main css file for the default Alta theme / research if can be changed or not to other name type -->
-  <!-- <link rel="stylesheet" href="css/libs/oj/v7.1.0/alta/oj-alta-min.css" type="text/css"/> -->
-  <!-- end Alta theme -->
+    <!-- This is the main css file for the default Alta theme -->
+    <!-- <link rel="stylesheet" href="css/libs/oj/v7.1.0/alta/oj-alta-min.css" type="text/css"/>  -->
+    <!-- end Alta theme -->
 
-  <!-- THEME -->
+  <!-- THEME-->
 <!-- injector:theme -->
 <link rel="stylesheet" href="css/Atradius/0.0.1/web/Atradius.css" id="css" />
 <!-- endinjector -->
@@ -25,36 +25,52 @@
 </head>
 
 <body class="oj-web-applayout-body">
+  <!-- script tag needed to render the names in the navigation -->
+    <script type="text/html" id="navTemplate">
+      <li><a href="#">
+        <span :class="[[$data['iconClass']]]"></span>
+        <oj-bind-text value="[[$data['name']]]"></oj-bind-text>
+      </a></li>
+    </script>
 
+    <div id="navDrawer" role="navigation" class="oj-contrast-marker oj-web-applayout-offcanvas oj-offcanvas-start">
+        <oj-navigation-list  
+                            edge="start"
+                            item.renderer="[[KnockoutTemplateUtils.getRenderer('navTemplate', true)]]"
+                            on-click="[[toggleDrawer]]"
+                            selection="{{router.stateId}}">
+        </oj-navigation-list>
+      </div>
 
   <div id="atradius" class="atradiusGrid oj-offcanvas-outer-wrapper oj-offcanvas-page">
     <div class="atradiusRed"></div>
     <div class="atradiusHeader">
       <div class="atradiusLogo">
-        <em id="drawerToggleButton" class="slideMenuButton fas fa-bars atr-pointer"></em>
+        <!-- hamburger button for smaller screens. Don't know if it is neccesary -->
+        <!-- <em id="drawerToggleButton" class="slideMenuButton fas fa-bars atr-pointer"></em> -->
         <img class="logo" alt="Atradius Logo" src="css/images/atradiuslogo.png">
       </div>
     </div>
 
     <!--loads in the navigation-->
-    <div id="navDrawer" class="atradiusMenu atr-border-bottom">
+    <div id="navDrawer" role="navigation" class="atradiusMenu atr-border-bottom">
       <div role="navigation" class="sidebar-menu">
-        <oj-navigation-list >
-                            <!-- 
-                            data="[[navDataProvider]]"
-                            edge="start" -->
+        <oj-navigation-list 
+         edge="start"
+         data="[[navDataProvider]]"
+         selection="{{router.stateId}}"
+         item.renderer="[[KnockoutTemplateUtils.getRenderer('navTemplate', true)]]"
+         >
         </oj-navigation-list>
       </div>
     </div>
 
     <!--Loads in the main screen-->
-    <div id="atradiusMain" class="atradiusMain oj-flex oj-sm-flex-wrap-nowrap atr-border" data-bind="ojModule: router.moduleConfig">
+    <div id="atradiusMain" class="atradiusMain oj-flex oj-sm-flex-wrap-nowrap atr-border"
+      data-bind="ojModule: router.moduleConfig">
       <div class="oj-flex-item">
         <div class="oj-flex oj-sm-flex-direction-column oj-sm-flex-wrap-nowrap">
           <div class="oj-flex oj-sm-flex-direction-column oj-sm-flex-wrap-nowrap">
-              
-            <div data-bind="ojModule:{name: 'login'}"></div>
-          
           </div>
         </div>
       </div>

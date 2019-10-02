@@ -13,15 +13,16 @@ define(['knockout', 'ojs/ojmodule-element-utils', 'ojs/ojknockouttemplateutils',
       self.mdScreen = ResponsiveKnockoutUtils.createMediaQueryObservable(mdQuery);
 
       // Router setup
-      self.router = Router.rootInstance;
+      self.router = oj.Router.rootInstance;
       self.router.configure(
         {
-          'login': { label: 'Login screen', isDefault: true },
-          'data': { label: 'Data-dashboard' },
-          'about': { label: 'About' }
+          'login': { label: 'Login screen', value: 'login' },
+          'taskManager': { label: 'Task Manager', value: 'taskManager'},
+          'report': { label: 'Report', value: 'report', isDefault: true },
+          'about': { label: 'About', value: 'about' }
         });
 
-      Router.defaults['urlAdapter'] = new Router.urlParamAdapter();
+      //Router.defaults['urlAdapter'] = new Router.urlParamAdapter();
 
       self.moduleConfig = ko.observable({ 'view': [], 'viewModel': null });
 
@@ -45,17 +46,18 @@ define(['knockout', 'ojs/ojmodule-element-utils', 'ojs/ojknockouttemplateutils',
       // Navigation setup
       var navData = [
         { name: 'Login', id: 'login' },
-        { name: 'Data', id: 'data' },
+        { name: 'Task Manager', id: 'taskManager'},
+        { name: 'Report', id: 'report'},
         { name: 'About', id: 'about' }
       ];
       self.navDataProvider = new ArrayDataProvider(navData, { keyAttributes: 'id' });
 
-      // Called by navigation drawer toggle button and after selection of nav drawer item
-      self.toggleDrawer = function () {
-        return OffcanvasUtils.toggle(self.drawerParams);
-      }
-      // Add a close listener so we can move focus back to the toggle button when the drawer closes
-      document.getElementById('navDrawer').addEventListener("ojclose", document.getElementById('drawerToggleButton').focus());
+      // // Called by navigation drawer toggle button and after selection of nav drawer item
+      // self.toggleDrawer = function () {
+      //   return OffcanvasUtils.toggle(self.drawerParams);
+      // }
+      // // Add a close listener so we can move focus back to the toggle button when the drawer closes
+      // document.getElementById('navDrawer').addEventListener("ojclose", document.getElementById('drawerToggleButton').focus());
 
       // Header
       // Application Name used in Branding Area

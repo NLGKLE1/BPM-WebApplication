@@ -4,6 +4,10 @@ define({
     'login-titlelogin': 'Login',
     'login-userLabel': 'Username:',
     'login-pwLabel': 'Password:',
-    'login-loginButtonText': 'LOGIN'
+    'login-loginButtonText': 'LOGIN',
+
+            //button text
+    'accept-buttonText': 'Accept',
+    'correct-buttonText': 'Corrected'
     }
 })
