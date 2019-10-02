@@ -1,0 +1,58 @@
+<STYLE TYPE="text/css">
+    @import url(css/taskManager.css);
+</STYLE>
+
+<div class="oj-hybrid-padding">
+    <div class="data-main-grid">
+        <h1 class="data-title">
+            <oj-bind-text value=[[title]]></oj-bind-text>
+        </h1>
+
+        <h1 class="approve">
+            <oj-bind-text value="Approve"></oj-bind-text>
+        </h1>
+
+        <h1 class="decline">
+            <oj-bind-text value="Decline"></oj-bind-text>
+        </h1>
+
+
+        <div class="data-to-check">
+            <oj-list-view data="[[taskData]]" aria-label="List that shows data to check">
+                <template slot="itemTemplate">
+                    <div>
+                        <oj-bind-text value="[[$current.data.name]]"></oj-bind-text>
+                    </div>
+                </template>
+            </oj-list-view>
+        </div>
+
+        <div class="checkboxes-aprove-container">
+            <oj-list-view data="[[taskData]]" aria-label="List of checkboxes to check if data is correct">
+                <template slot="itemTemplate" data-oj-as="item">
+                    <li>
+                        <div>
+                            <oj-checkboxset class="checkBoxOrder" :data-row-id="{{item.data.id}}">
+                                <oj-option :id="[['listview_checkbox' + item.data.id]]"></oj-option>
+                            </oj-checkboxset>
+                        </div>
+                    </li>
+                </template>
+            </oj-list-view>
+        </div>
+
+        <div class="checkboxes-decline-container">
+            <oj-list-view data="[[taskData]]" aria-label="List of checkboxes to check if data is incorrect">
+                <template slot="itemTemplate" data-oj-as="item">
+                    <li>
+                        <div>
+                            <oj-checkboxset class="checkBoxOrder" :data-row-id="{{item.data.id}}">
+                                <oj-option></oj-option>
+                            </oj-checkboxset>
+                        </div>
+                    </li>
+                </template>
+            </oj-list-view>
+        </div>
+    </div>
+</div>

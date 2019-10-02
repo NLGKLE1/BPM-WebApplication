@@ -1,0 +1,52 @@
+.checkboxesGroup {
+    width: 19rem;
+    height: 1em;
+    padding: 5px;
+    display: flex;
+}
+
+.data-main-grid {
+    display: grid;
+    grid-template-columns: 550px 150px 150px;
+    grid-template-rows: 50px 1fr 500px;
+    grid-template-areas:    
+    "title title-approve title-decline"
+    ". . ."
+    "check-item checkboxes-approve checkboxes-decline"
+}
+
+.data-title {
+grid-area: title;
+}
+
+.approve {
+    grid-area: title-approve;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.decline {
+    grid-area: title-decline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.data-to-check {
+grid-area: check-item;
+}
+
+.checkboxes-aprove-container {
+    grid-area: checkboxes-approve;
+}
+
+.checkboxes-decline-container {
+    grid-area: checkboxes-decline;
+}
+
+.data-change-check {
+    grid-area: check-change;
+    display: flex;
+    justify-content: center;
+}

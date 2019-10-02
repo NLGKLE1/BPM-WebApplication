@@ -5,7 +5,6 @@
 requirejs.config(
   {
     baseUrl: 'js',
-    waitSeconds: 0,
     paths:
     {
       'knockout': 'libs/knockout/knockout-3.5.0.debug',
@@ -23,7 +22,7 @@ requirejs.config(
       'customElements': 'libs/webcomponents/custom-elements.min',
       'proj4': 'libs/proj4js/dist/proj4-src',
       'css': 'libs/require-css/css.min',
-      'touchr': 'libs/touchr/touchr'
+      'touchr': 'libs/touchr/touchr',
     },
     config: {
       ojL10n: {
