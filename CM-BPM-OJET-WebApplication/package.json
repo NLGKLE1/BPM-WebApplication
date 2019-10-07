@@ -4,7 +4,11 @@
   "description": "IFRS Data checker with OJET",
   "dependencies": {
     "@oracle/oraclejet": "~7.1.0",
-    "eslint": "^6.3.0"
+    "axios": "^0.19.0",
+    "crypto-js": "^3.1.9-1",
+    "eslint": "^6.3.0",
+    "moments": "0.0.2",
+    "requirejs-babel": "0.0.9"
   },
   "devDependencies": {
     "@oracle/oraclejet-tooling": "~7.1.0",

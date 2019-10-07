@@ -6,30 +6,34 @@
 
 
 <html lang="en-us">
-  <head>
-    <title>Oracle JET Starter QUnit - Common Composite Component</title>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/x-icon" href="../css/images/favicon.ico">
+<head>
+  <title>Oracle JET Starter QUnit - Common Composite Component</title>
 
-    <link rel="stylesheet" href="../js/libs/qunit/qunit.css">
-    <script type="text/javascript" src="../js/libs/qunit/qunit.js"></script>
-    <script>
-        QUnit.config.autoload = false;
-        QUnit.config.autostart = false;
-        QUnit.config.testTimeout = 6000;
-    </script>
-    <script type="text/javascript" src="../js/libs/qunit/qunit-reporter-junit.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="../css/images/favicon.ico">
 
-  </head>
-  <body>
-    <script type="text/javascript" src="../js/libs/require/require.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+  <link rel="stylesheet" href="../js/libs/qunit/qunit.css">
+  <script type="text/javascript" src="../js/libs/qunit/qunit.js"></script>
+  <script>
+    QUnit.config.autoload = false;
+    QUnit.config.autostart = false;
+    QUnit.config.testTimeout = 6000;
+  </script>
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <!-- <script type="text/javascript" src="../js/libs/qunit/qunit-reporter-junit.js"></script> -->
 
-    <div id="qunit"></div>
+</head>
 
-    <h1 id="qunit-header">Composite Component Tests</h1>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture">
+  </div>
+  <script type="text/javascript" src="../js/libs/require/require.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+  <!-- <h1 id="qunit-header">Composite Component Tests</h1>
 
     <h2 id="qunit-banner"></h2>
     <div id="qunit-testrunner-toolbar"></div>
@@ -55,8 +59,8 @@
         });
       </script>
       
-    </div>
-    
-  </body>
+    </div> -->
+
+</body>
 
 </html>
