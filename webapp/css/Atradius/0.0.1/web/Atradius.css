@@ -21886,9 +21886,6 @@ a.oj-navigationlist-item-content .oj-navigationlist-item-label {
 .oj-progress-bar-value {
   background: red; }
 
-.oj-train {
-  color: green; }
-
 /* Notifications */
 .oj-messages-notification {
   padding-top: 90px; }
@@ -22227,5 +22224,11 @@ oj-select-one div:first-child {
   font-size: 10px;
   color: #DC0028;
   font-weight: bold; }
+
+.atr-train {
+  padding: 5px;
+  border: 2px;
+  border-color: black;
+  margin: 3px; }
 
 /*# sourceMappingURL=Atradius.css.map */

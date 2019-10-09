@@ -18,7 +18,7 @@ define(['knockout', 'ojs/ojmodule-element-utils', 'ojs/ojknockouttemplateutils',
         {
           'login': { label: 'Login screen', value: 'login' },
           'taskManager': { label: 'Task Manager', value: 'taskManager'},
-          'report': { label: 'Report', value: 'report', isDefault: true },
+          'report': { label: 'Report', value: 'report', isDefault: true},
           'about': { label: 'About', value: 'about' }
         });
 

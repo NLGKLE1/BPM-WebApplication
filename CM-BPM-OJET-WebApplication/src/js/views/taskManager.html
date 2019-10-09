@@ -19,8 +19,8 @@
                     "field": "comments"}]'>
         </oj-table>
     </div>
-    <div class="">
-        <oj-button id="acceptButtonTask"  on-click='[[buttonClick]]' disabled="[[needsToBeDisabled]]"
+    <div>
+        <oj-button id="acceptButtonTask"  on-click='[[buttonClick]]' disabled="[[isDisabled]]"
          class="atr-button-highlight"><span
                 data-bind="text: acceptButton"></span></oj-button>
         <oj-button id="correctButtonTask" value="correct" on-click='[[buttonClick]]' class="atr-button-highlight"><span

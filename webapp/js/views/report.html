@@ -2,14 +2,24 @@
  Copyright (c) 2014, 2019, Oracle and/or its affiliates.
  The Universal Permissive License (UPL), Version 1.0
  -->
-<div class="oj-hybrid-padding">
-            <div id="train-container" >
-            <oj-train id="train"
-                      class="oj-train-stretch"
-                      style="max-width:700px;margin-left:auto;margin-right:auto;"
-                      on-selected-step-changed="[[updateLabelText]]"
-                      selected-step="{{selectedStepValue}}"
-                      steps="[[stepArray]]">
-            </oj-train>
-          </div>
+
+<div class="report-main-grid">
+  <div id="Calculator" class="calculator-train">
+    <div id="train-container" :class="atr-train" >
+      <h3>Calculator</h3>
+      <oj-train id="Calculator-train" class="oj-train-stretch"
+        style="max-width:700px;margin-left:auto;margin-right:auto;" on-selected-step-changed="[[updateLabelText]]"
+        selected-step="{{selectedStepValue}}" steps="[[calculatorArray]]">
+      </oj-train>
+    </div>
+  </div>
+
+  <div id="Bonds" class="bonds-train">
+    <div id="train-container">
+        <h3>Bonds</h3>
+      <oj-train id="Bonds-train" class="oj-train-stretch" 
+        on-selected-step-changed="[[updateLabelText]]" selected-step="{{selectedStepValue}}" steps="[[bondsArray]]">
+      </oj-train>
+    </div>
+  </div>
 </div>

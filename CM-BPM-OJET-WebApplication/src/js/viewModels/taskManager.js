@@ -6,7 +6,7 @@ define(['knockout', 'jquery', "ojs/ojtable", "ojs/ojbutton"],
 
       // Mock Data
       self.mockData = ko.observableArray([
-        { taskId: "1", taskName: "Calculater report", dateTime: "2-10-2019 11:36", errors: "0", warnings: "1", comments: "Check with product owner" }
+        { taskId: "1", taskName: "Calculater report", dateTime: "2-10-2019 11:36", errors: "1", warnings: "1", comments: "Check with product owner" }
       ]);
 
       self.taskData = new oj.ArrayDataProvider(
@@ -14,23 +14,25 @@ define(['knockout', 'jquery', "ojs/ojtable", "ojs/ojbutton"],
       )
 
       // buttons
-      self.acceptButton = ko.observable();
+      self.acceptButton = ko.observable(true);
       self.acceptButton(oj.Translations.getTranslatedString('Accept'));
 
       self.correctButton = ko.observable();
       self.correctButton(oj.Translations.getTranslatedString('correct-buttonText'))
 
       // enables/disables accept button, not working correctly yet
-      console.log(self.mockData()[0].errors == 0);
+      console.log(self.mockData()[0].errors);
+      
+      self.isDisabled = ko.observable();
 
-      self.needsToBeDisabled = function () {
-        if (self.mockData()[0].errors == 0) {
-          $("#acceptButtonTask").ojButton("disabled", false)
-          }  $("#acceptButtonTask").ojButton("disabled", true);
+      self.needsToBeDisabled = function ()
+      {
+           if (self.mockData()[0].errors > 0)
+           return self.isDisabled(true);
+           else
+               return self.isDisabled(false);
       }
-
-      console.log(self.needsToBeDisabled());
-
+      
       self.needsToBeDisabled();
 
       self.buttonClick = function () {
