@@ -22087,6 +22087,10 @@ a.oj-navigationlist-item-content .oj-navigationlist-item-label {
   background-color: #AA7A52 !important;
   color: #FFFFFF !important; }
 
+.atr-button-disabled > button > div {
+  background-color: #d9d9d9 !important;
+  color: #FFFFFF !important; }
+
 .atr-button-remove > button > div {
   background-color: #e17055 !important;
   color: #FFFFFF !important; }
@@ -22227,8 +22231,8 @@ oj-select-one div:first-child {
 
 .atr-train {
   padding: 5px;
-  border: 2px;
-  border-color: black;
+  border: #d1d1d1 solid 1px;
+  border-radius: 5px;
   margin: 3px; }
 
 /*# sourceMappingURL=Atradius.css.map */

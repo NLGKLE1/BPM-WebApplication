@@ -20,25 +20,28 @@ define(['knockout', 'jquery', "ojs/ojtable", "ojs/ojbutton"],
       self.correctButton = ko.observable();
       self.correctButton(oj.Translations.getTranslatedString('correct-buttonText'))
 
-      // enables/disables accept button, not working correctly yet
-      console.log(self.mockData()[0].errors);
-      
+      // enables/disables accept button, still working on changing the class
       self.isDisabled = ko.observable();
 
-      self.needsToBeDisabled = function ()
-      {
-           if (self.mockData()[0].errors > 0)
-           return self.isDisabled(true);
-           else
-               return self.isDisabled(false);
-      }
-      
+      self.needsToBeDisabled = function () {
+        if (self.mockData()[0].errors > 0) {
+          return self.isDisabled(true);
+        }
+        else {
+          return self.isDisabled(false);
+        }
+      };
+
       self.needsToBeDisabled();
 
-      self.buttonClick = function () {
-        console.log("Number of errors: " + self.mockData()[0].errors);
+
+      self.correctButtonClick = function (event) {
+        alert("Data needs to be corrected!")
       }
 
+      self.acceptButtonClick = function () {
+        alert("You have accepted the data!")
+      }
     }
     return new TaskManagerViewModel();
   }
