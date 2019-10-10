@@ -16,8 +16,8 @@ define(['knockout', 'ojs/ojmodule-element-utils', 'ojs/ojknockouttemplateutils',
       self.router = oj.Router.rootInstance;
       self.router.configure(
         {
-          'login': { label: 'Login screen', value: 'login' },
-          'taskManager': { label: 'Task Manager', value: 'taskManager', isDefault: true},
+          'login': { label: 'Login screen', value: 'login', isDefault: true },
+          'taskManager': { label: 'Task Manager', value: 'taskManager'},
           'report': { label: 'Report', value: 'report'},
           'about': { label: 'About', value: 'about' }
         });

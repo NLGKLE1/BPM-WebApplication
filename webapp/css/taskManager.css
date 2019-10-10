@@ -1,9 +1,13 @@
 .data-main-grid {
 display: flex;
-justify-content: auto;
-align-items: auto;
+flex-direction: column;
 width: 100%;
 }
 
-.buttonContainer { 
-    }
+.button-container {
+    display: flex;  
+}
+
+.single-button {
+    padding: 5px 5px 5px 0px;
+}

@@ -4,8 +4,9 @@
 
 <div class="oj-hybrid-padding">
     <div class="data-main-grid">
-        <oj-table id="taskTable" class="atr-table-content atr-table-column" aria-label="Task data Table"
-            data="{{taskData}}" columns='[{"headerText": "Task Id",
+        <div>
+            <oj-table id="taskTable" class="atr-table-content atr-table-column" aria-label="Task data Table"
+                data="{{taskData}}" columns='[{"headerText": "Task Id",
                     "field": "taskId"},
                     {"headerText": "Name",
                     "field": "taskName"},
@@ -17,13 +18,20 @@
                     "field": "warnings"},
                     {"headerText": "Comments",
                     "field": "comments"}]'>
-        </oj-table>
-    </div>
-    <div>
-        <oj-button id="acceptButtonTask"  on-click='[[acceptButtonClick]]' disabled="[[isDisabled]]"
-         class="atr-button-disabled"><span
-                data-bind="text: acceptButton"></span></oj-button>
-        <oj-button id="correctButtonTask" value="correct" on-click='[[correctButtonClick]]' class="atr-button-highlight"><span
-                data-bind="text: correctButton"></span></oj-button>
+            </oj-table>
+        </div>
+        <div class="button-container">
+            <div>
+                <oj-button id="correctButtonTask" value="correct" on-click='[[correctButtonClick]]'
+                    class="atr-button-highlight single-button"><span data-bind="text: correctButton"></span></oj-button>
+            </div>
+            <oj-bind-if test="[[isDisabled]]">
+                <div>
+                    <oj-button id="acceptButtonTask" on-click='[[acceptButtonClick]]'
+                        class="atr-button-highlight single-button"><span data-bind="text: acceptButton"></span>
+                    </oj-button>
+                </div>
+            </oj-bind-if>
+        </div>
     </div>
 </div>

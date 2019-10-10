@@ -6,8 +6,8 @@ define(['knockout', 'jquery', "ojs/ojtable", "ojs/ojbutton"],
 
       // Mock Data
       self.mockData = ko.observableArray([
-        { taskId: "1", taskName: "Calculater report", dateTime: "2-10-2019 11:36", errors: "1", warnings: "1", comments: "Check with product owner" }
-      ]);
+        { taskId: "1", taskName: "Calculater report", dateTime: "2-10-2019 11:36", errors: "0", warnings: "1", comments: "Check with product owner" }
+      ])
 
       self.taskData = new oj.ArrayDataProvider(
         self.mockData, { idAttribute: "taskId" }
@@ -24,7 +24,7 @@ define(['knockout', 'jquery', "ojs/ojtable", "ojs/ojbutton"],
       self.isDisabled = ko.observable();
 
       self.needsToBeDisabled = function () {
-        if (self.mockData()[0].errors > 0) {
+        if (self.mockData()[0].errors == 0) {
           return self.isDisabled(true);
         }
         else {
@@ -34,8 +34,8 @@ define(['knockout', 'jquery', "ojs/ojtable", "ojs/ojbutton"],
 
       self.needsToBeDisabled();
 
-
-      self.correctButtonClick = function (event) {
+      // click function for buttons
+      self.correctButtonClick = function () {
         alert("Data needs to be corrected!")
       }
 
