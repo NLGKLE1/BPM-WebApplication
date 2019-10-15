@@ -1,0 +1,46 @@
+.atradius-common-technical-error .error-container {
+	padding-right: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-right: 1px solid gray;
+}
+
+.outer-container {
+	margin-bottom: 20px;
+}
+
+.atradius-common-technical-error .item-pad {
+	padding: 20px;
+}
+
+.atradius-common-technical-error .item-bot-pad {
+	padding-bottom: 20px;
+}
+
+.atradius-common-technical-error .clickable {
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+}
+
+.atradius-common-technical-error .error-icon {
+	width: 40px;
+}
+
+.atradius-common-technical-error .small-text {
+	font-family: Roboto Condensed;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 16px;
+	color: #333333;
+}
+
+.atradius-common-technical-error .header-text {
+	font-family: Roboto Condensed;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 20px;
+	color: #333333;
+}

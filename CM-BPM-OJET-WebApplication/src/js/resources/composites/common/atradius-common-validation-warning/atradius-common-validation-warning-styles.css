@@ -1,0 +1,41 @@
+.atradius-common-validation-warning .container {
+	border: 1px solid #DDBD85;
+	background-color: #EEDEC0;
+	margin-bottom: 20px;
+}
+.atradius-common-validation-warning .flex-item {
+	padding: 20px;
+	line-height: 40px;
+}
+
+.atradius-common-validation-warning .item {
+	padding-right: 20px;
+	padding-left: 20px;
+	line-height: 40px;
+}
+
+.atradius-common-validation-warning .pointer {
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.atradius-common-validation-warning .header {
+	font-family: Roboto Condensed;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 18px;
+	color: #333333;
+}
+
+.atradius-common-validation-warning .info {
+	font-family: Roboto Condensed;
+	font-style: normal;
+	line-height: normal;
+	font-size: 18px;
+	color: #333333;
+}
+
+.atradius-common-validation-warning .warning-icon {
+	height: 25px;
+}

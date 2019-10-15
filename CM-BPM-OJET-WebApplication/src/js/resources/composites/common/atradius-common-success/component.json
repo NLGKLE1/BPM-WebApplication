@@ -1,0 +1,26 @@
+{
+  "name": "atradius-common-success",
+  "displayName": "atradius-common-success",
+  "description": "Describe your component here",
+  "version": "1.0.0",
+  "jetVersion": "5.2.0",
+  "properties": {
+  },
+  "methods": {
+    "openMessage" : {
+      "description":"",
+      "params": [{
+      }]
+    },
+    "closeMessage" : {
+      "description":"",
+      "params": [{}]
+    }
+  }, 
+  "events": {
+
+  }, 
+  "slots": {
+
+  }
+}

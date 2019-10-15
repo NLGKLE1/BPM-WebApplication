@@ -1,10 +1,11 @@
 /**
- * Require.js config for which modules to use and where to find them
+ * Loads all library dependencies for the project
+ * and global variables
  */
-
 requirejs.config(
   {
     baseUrl: 'js',
+    waitSeconds: 0,
     paths:
     {
       'knockout': 'libs/knockout/knockout-3.5.0.debug',
@@ -16,13 +17,34 @@ requirejs.config(
       'ojs': 'libs/oj/v7.1.0/debug',
       'ojL10n': 'libs/oj/v7.1.0/ojL10n',
       'ojtranslations': 'libs/oj/v7.1.0/resources',
-      'ojet': 'libs/core/common/ojCommon',
       'text': 'libs/require/text',
       'signals': 'libs/js-signals/signals',
       'customElements': 'libs/webcomponents/custom-elements.min',
       'proj4': 'libs/proj4js/dist/proj4-src',
       'css': 'libs/require-css/css.min',
       'touchr': 'libs/touchr/touchr',
+      'persist': 'libs/persist/min',
+      'ojFetch': 'libs/core/modules/ojFetch',
+      'ojTime': 'libs/core/modules/ojTime',
+      'ojet': 'libs/core/common/ojCommon',
+      'ojCommonComponents': 'libs/core/bundles/ojCommonComponents',
+      'ojCommonLibs': 'libs/core/bundles/ojCommonLibs',
+      'ojCoreComponents': 'libs/core/bundles/ojCoreComponents',
+      'ojEvents': 'libs/core/common/ojEvents',
+      'ojLogger': 'libs/core/logger/ojLogger',
+      'ojNavData': 'libs/core/router/ojNavData',
+      'ojRouterConfig': 'libs/core/router/ojRouterConfig',
+      'ojUtils': 'libs/core/utils/ojUtils',
+      'es6': 'libs/core/modules/requirejs-babel/es6',
+      'babel': 'libs/core/modules/requirejs-babel/babel.min',
+      'ojCombo': 'libs/core/common/ojCombo',
+      'crypto-js': 'libs/crypto-js/crypto-js',
+      'ojAuth': 'libs/core/auth/ojAuth'
+    },
+    shim: {
+      'jquery': {
+        exports: ['jQuery', '$']
+      }
     },
     config: {
       ojL10n: {
@@ -39,34 +61,19 @@ requirejs.config(
  * by the modules themselves), we are listing them explicitly to get the references to the 'oj' and 'ko'
  * objects in the callback
  */
-require(['ojs/ojbootstrap', 'knockout', 'appController', 'ojs/ojrouter', 'ojs/ojlogger', 'ojs/ojknockout',
-  'ojs/ojmodule', 'ojs/ojrouter', 'ojs/ojnavigationlist', 'ojs/ojbutton', 'ojs/ojtoolbar', 'ojs/ojtrain'],
-  function (Bootstrap, ko, app, Router, Logger) { // this callback gets executed when all required modules are loaded
+require(['ojs/ojbootstrap', 'knockout', 'appController', 'ojet', 'ojEvents', 'ojUtils', 'text!./varconfig.json', 'ojCombo', 'ojAuth', 'ojFetch', 
+'resources/router/navData', 'resources/core/common/ojKnockout', 'resources/core/utils/ojMapping'],
+    function (Bootstrap, ko, app, ojet, evt, utils, vars, ojCombo, ojAuth, ojFetch, ojNavData) { 
     Bootstrap.whenDocumentReady().then(
       function () {
 
-        function init() {
-          Router.sync().then(
-            function () {
-              app.loadModule();
-              // Bind your ViewModel for the content of the whole page body.
-              ko.applyBindings(app, document.getElementById('atradius'));
-            },
-            function (error) {
-              Logger.error('Error in root start: ' + error.message);
-            }
-          );
-        }
+        self.navListData = ojet.createJSONTreeDataSource(ojNavData.getMenu());;
 
-        // If running in a hybrid (e.g. Cordova) environment, we need to wait for the deviceready
-        // event before executing any code that might interact with Cordova APIs or plugins.
-        if (document.body.classList.contains('oj-hybrid')) {
-          document.addEventListener("deviceready", init);
-        } else {
-          init();
-        }
+        //initialize application
+        ojet.init(app);
+
       });
-      
+
   }
 );
 

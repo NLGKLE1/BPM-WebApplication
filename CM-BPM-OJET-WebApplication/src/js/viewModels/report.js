@@ -6,7 +6,7 @@
 /*
  * Your about ViewModel code goes here
  */
-define(['knockout', 'jquery', 'ojs/ojknockout', 'ojs/ojbutton'],
+define(['knockout', 'jquery', 'ojs/ojknockout', 'ojs/ojtrain'],
   function (ko, $) {
 
     function ReportViewModel() {

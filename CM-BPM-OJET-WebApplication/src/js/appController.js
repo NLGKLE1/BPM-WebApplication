@@ -1,56 +1,55 @@
-define(['knockout', 'ojs/ojmodule-element-utils', 'ojs/ojknockouttemplateutils', 'ojs/ojrouter', 'ojs/ojresponsiveutils', 'ojs/ojresponsiveknockoututils', 'ojs/ojarraydataprovider',
-  'ojs/ojmodule-element', 'ojs/ojknockout', 'ojs/ojoffcanvas',],
-  function (ko, moduleUtils, KnockoutTemplateUtils, Router, ResponsiveUtils, ResponsiveKnockoutUtils, ArrayDataProvider, OffcanvasUtils) {
+define(['ojet', 'resources/router/navData', 'resources/router/routerConfig'
+],
+  function (ojet, ojNavData, routerConfig) {
     function ControllerViewModel() {
       var self = this;
 
-      this.KnockoutTemplateUtils = KnockoutTemplateUtils;
+      // Router setup      
+      self.router = ojet.getRouterInstance();
+      ojet.configureRouter(routerConfig);
 
-      // Media queries for repsonsive layouts
-      var smQuery = ResponsiveUtils.getFrameworkQuery(ResponsiveUtils.FRAMEWORK_QUERY_KEY.SM_ONLY);
-      self.smScreen = ResponsiveKnockoutUtils.createMediaQueryObservable(smQuery);
-      var mdQuery = ResponsiveUtils.getFrameworkQuery(ResponsiveUtils.FRAMEWORK_QUERY_KEY.MD_UP);
-      self.mdScreen = ResponsiveKnockoutUtils.createMediaQueryObservable(mdQuery);
+      self.moduleConfig = ojet.createInput({
+        'view': [],
+        'viewModel': null
+      });
 
-      // Router setup
-      self.router = oj.Router.rootInstance;
-      self.router.configure(
-        {
-          'login': { label: 'Login screen', value: 'login', isDefault: true },
-          'taskManager': { label: 'Task Manager', value: 'taskManager'},
-          'report': { label: 'Report', value: 'report'},
-          'about': { label: 'About', value: 'about' }
-        });
+      //map router
+      // const jQuery = function (name) {
+      //   const viewPath = 'views/' + name + '.html';
+      //   const modelPath = 'viewModels/' + name;
+      //   const masterPromise = Promise.all([
+      //     ojet.moduleUtils().createView({
+      //       'viewPath': viewPath
+      //     }),
+      //     ojet.moduleUtils().createViewModel({
+      //       'viewModelPath': modelPath
+      //     })
+      //   ]);
+      //   masterPromise.then(
+      //     function (values) {
+      //       self.moduleConfig({
+      //         'view': values[0],
+      //         'viewModel': values[1]
+      //       }).catch(function (errors) {
+      //         console.log(errors);
+      //       });;
+      //     }
+      //   );
+      // };
 
-      //Router.defaults['urlAdapter'] = new Router.urlParamAdapter();
+      // Router View/ViewModel configuration
+        self.loadModule = function () {
+          ojet.createComputed(function () {
+            var name = self.router.moduleConfig.name();            
+            //prepareRouter(name);
+          });
+        };
 
-      self.moduleConfig = ko.observable({ 'view': [], 'viewModel': null });
-
-      self.loadModule = function () {
-        ko.computed(function () {
-          var name = self.router.moduleConfig.name();
-          var viewPath = 'views/' + name + '.html';
-          var modelPath = 'viewModels/' + name;
-          var masterPromise = Promise.all([
-            moduleUtils.createView({ 'viewPath': viewPath }),
-            moduleUtils.createViewModel({ 'viewModelPath': modelPath })
-          ]);
-          masterPromise.then(
-            function (values) {
-              self.moduleConfig({ 'view': values[0], 'viewModel': values[1] });
-            }
-          );
-        });
-      };
+        // Homepage Greeting
+        self.localeGreeting = ojet.createText('homepage-welcome');
 
       // Navigation setup
-      var navData = [
-        { name: 'Login', id: 'login' },
-        { name: 'Task Manager', id: 'taskManager'},
-        { name: 'Report', id: 'report'},
-        { name: 'About', id: 'about' }
-      ];
-      self.navDataProvider = new ArrayDataProvider(navData, { keyAttributes: 'id' });
+
 
       // // Called by navigation drawer toggle button and after selection of nav drawer item
       // self.toggleDrawer = function () {
@@ -59,19 +58,13 @@ define(['knockout', 'ojs/ojmodule-element-utils', 'ojs/ojknockouttemplateutils',
       // // Add a close listener so we can move focus back to the toggle button when the drawer closes
       // document.getElementById('navDrawer').addEventListener("ojclose", document.getElementById('drawerToggleButton').focus());
 
-      // Header
-      // Application Name used in Branding Area
-      self.appName = ko.observable("IFRS data checker");
-      // User Info used in Global Navigation area
-      self.userLogin = ko.observable("login through user-id or mailadress");
-
       // Footer
       function footerLink(name, id, linkTarget) {
         this.name = name;
         this.linkId = id;
         this.linkTarget = linkTarget;
       }
-      self.footerLinks = ko.observableArray([
+      self.footerLinks = ojet.createArray([
         // new footerLink('About Oracle', 'aboutOracle', 'http://www.oracle.com/us/corporate/index.html#menu-about')
       ]);
     }

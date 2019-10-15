@@ -1,0 +1,24 @@
+{
+  "name": "atradius-dropdown-button",
+  "version": "1.0.0",
+  "jetVersion": "^6.1.0",
+  "displayName": "A user friendly, translatable name of the pack.",
+  "description": "A translatable high-level description for the pack.",
+  "properties": {
+    "options":{
+      "type": "object"
+    },
+    "attrid":{
+      "type": "number"
+    }
+  },
+  "methods": {
+
+  }, 
+  "events": {
+
+  }, 
+  "slots": {
+
+  }
+} 

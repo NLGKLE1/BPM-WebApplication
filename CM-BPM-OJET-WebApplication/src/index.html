@@ -15,7 +15,7 @@
 
   <!-- THEME-->
   <!-- injector:theme -->
-  <link rel="stylesheet" href="css/libs/oj/v7.1.0/alta/oj-alta-min.css" type="text/css"/>
+  <!-- <link rel="stylesheet" href="css/libs/oj/v7.1.0/alta/oj-alta-min.css" type="text/css"/> -->
   <!-- endinjector -->
 
   <!-- FONT AWESOME ICONS -->
@@ -26,20 +26,18 @@
 
 <body class="oj-web-applayout-body">
   <!-- script tag needed to render the names in the navigation -->
-    <script type="text/html" id="navTemplate">
-      <li><a href="#">
-        <span :class="[[$data['iconClass']]]"></span>
-        <oj-bind-text value="[[$data['name']]]"></oj-bind-text>
-      </a></li>
-    </script>
+  <script type="text/html" id="navTemplate">
+    <li><a href="#">
+    <span :class="[[$data['iconClass']]]"></span>
+    <oj-bind-text value="[[$data['name']]]"></oj-bind-text>
+  </a></li>
+</script>
 
     <div id="navDrawer" role="navigation" class="oj-contrast-marker oj-web-applayout-offcanvas oj-offcanvas-start">
-        <oj-navigation-list  
-                            edge="start"
-                            item.renderer="[[KnockoutTemplateUtils.getRenderer('navTemplate', true)]]"
-                            on-click="[[toggleDrawer]]"
-                            selection="{{router.stateId}}">
-        </oj-navigation-list>
+      <oj-navigation-list id='collap' drill-mode="collapsible" data="[[navListData]]" edge="start"
+      item.renderer="[[oj.KnockoutTemplateUtils.getRenderer('navTemplate', true)]]"
+      selection="{{router.stateId}}">
+  </oj-navigation-list>
       </div>
 
   <div id="atradius" class="atradiusGrid oj-offcanvas-outer-wrapper oj-offcanvas-page">
@@ -53,17 +51,14 @@
     </div>
 
     <!--loads in the navigation-->
-    <div id="navDrawer" role="navigation" class="atradiusMenu atr-border-bottom">
-      <div role="navigation" class="sidebar-menu">
-        <oj-navigation-list 
-         edge="start"
-         data="[[navDataProvider]]"
-         selection="{{router.stateId}}"
-         item.renderer="[[KnockoutTemplateUtils.getRenderer('navTemplate', true)]]"
-         >
-        </oj-navigation-list>
+    <div class="atradiusMenu atr-border-bottom">
+      <div class="sidebar-menu">
+          <oj-navigation-list id='collap' drill-mode="collapsible" data="[[navListData]]" edge="start"
+              item.renderer="[[oj.KnockoutTemplateUtils.getRenderer('navTemplate', true)]]"
+              selection="{{router.stateId}}">
+          </oj-navigation-list>
       </div>
-    </div>
+  </div>
 
     <!--Loads in the main screen-->
     <div id="atradiusMain" class="atradiusMain oj-flex oj-sm-flex-wrap-nowrap atr-border"

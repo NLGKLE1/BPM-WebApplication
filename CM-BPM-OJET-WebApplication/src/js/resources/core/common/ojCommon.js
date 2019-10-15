@@ -1,4 +1,4 @@
-define(['text!./varconfig.json', 'crypto-js', 'ojs/ojcore', 'knockout', 'jquery', 'ojFetch', 'ojTime', 'ojRouterConfig', 'ojNavData', 'ojDataControls', 'ojs/ojmodule-element-utils', 'ojCommonComponents', 'ojCommonLibs', 'ojCoreComponents'],
+define(['text!./varconfig.json', 'crypto-js', 'ojs/ojcore', 'knockout', 'jquery', 'ojFetch', 'ojTime', 'ojRouterConfig', 'ojNavData', 'ojs/ojmodule-element-utils', 'ojCommonComponents', 'ojCommonLibs', 'ojCoreComponents'],
     function (vars, CryptoJS, oj, ko, $, ojFetch, ojTime, ojRouterConfig, ojNavData, ojDC, moduleUtils) {
         const self = this;
 
@@ -49,19 +49,19 @@ define(['text!./varconfig.json', 'crypto-js', 'ojs/ojcore', 'knockout', 'jquery'
                     }
                 };
             },
-            formatCurrency: function(amount, curr){
-                    if (!amount) {
-                        return "0";
-                    }
-                    amount += '';
-                    let x = amount.split('.');
-                    let x1 = x[0];
-                    let x2 = x.length > 1 ? curr==='USD' ? '.' + x[1] : ',' + x[1]  : '';
-                    let rgx = /(\d+)(\d{3})/;
-                    while (rgx.test(x1)) {
-                        x1 = x1.replace(rgx, '$1' + (curr === 'USD' ? ',' : '.') + '$2');
-                    }
-                    return x1 + x2;
+            formatCurrency: function (amount, curr) {
+                if (!amount) {
+                    return "0";
+                }
+                amount += '';
+                let x = amount.split('.');
+                let x1 = x[0];
+                let x2 = x.length > 1 ? curr === 'USD' ? '.' + x[1] : ',' + x[1] : '';
+                let rgx = /(\d+)(\d{3})/;
+                while (rgx.test(x1)) {
+                    x1 = x1.replace(rgx, '$1' + (curr === 'USD' ? ',' : '.') + '$2');
+                }
+                return x1 + x2;
             },
             // to be simplified
             sortArrayNaturalCompare: function (array, path2key, direction) {
@@ -332,7 +332,7 @@ define(['text!./varconfig.json', 'crypto-js', 'ojs/ojcore', 'knockout', 'jquery'
                     return JSON.parse(sessionStorage.getItem("atradius-user"));
                 } else {
                     return {};
-                }                
+                }
             },
             /**
              *
@@ -464,7 +464,6 @@ define(['text!./varconfig.json', 'crypto-js', 'ojs/ojcore', 'knockout', 'jquery'
                 oj.Router.sync().then(
                     function () {
                         app.loadModule();
-                        app.loadModuleSubNav();
                         ko.applyBindings(app, document.getElementById('atradius'));
                     },
                     function (error) {
@@ -558,20 +557,20 @@ define(['text!./varconfig.json', 'crypto-js', 'ojs/ojcore', 'knockout', 'jquery'
                 // const urlString = varconfig['logger_servlet']+'UTIL-BBT-OJET-JavaUILogging/loggingServlet';
                 // ojFetch.post(urlString, payload);
             },
-            getNameInitials: function(name){
-                if(name){
+            getNameInitials: function (name) {
+                if (name) {
                     const numOfNames = name.split(' ').length;
                     if (numOfNames === 1) {
-                      return name.split(' ')[0].charAt(0).toUpperCase();
+                        return name.split(' ')[0].charAt(0).toUpperCase();
                     } else {
                         return name.split(' ')[0].charAt(0).toUpperCase() + name.split(' ')[numOfNames - 1].charAt(0).toUpperCase();
                     }
-                }else{
+                } else {
                     return ''
                 }
             },
             //Check if a Date is within a Date range
-            checkDateWithinRange: function(minDate, maxDate) {
+            checkDateWithinRange: function (minDate, maxDate) {
                 let isDateWithinRange = false;
                 let today = new Date();
                 let time = today.getHours() + ":" + today.getMinutes('mm') + ":" + today.getSeconds();

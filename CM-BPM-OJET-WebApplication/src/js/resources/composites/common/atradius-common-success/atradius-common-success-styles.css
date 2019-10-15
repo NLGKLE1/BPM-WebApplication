@@ -1,0 +1,41 @@
+atradius-common-success .container {
+	border: 1px solid #007B00;
+	background-color: #ddffd2;
+	margin-bottom: 20px;
+}
+atradius-common-success .flex-item {
+	padding: 20px;
+	line-height: 40px;
+}
+
+atradius-common-success .item {
+	padding-right: 20px;
+	padding-left: 20px;
+	line-height: 40px;
+}
+
+atradius-common-success .pointer {
+	cursor: pointer;
+	font-size: 20px;
+}
+
+atradius-common-success .header {
+	font-family: Roboto Condensed;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 18px;
+	color: #333333;
+}
+
+atradius-common-success .info {
+	font-family: Roboto Condensed;
+	font-style: normal;
+	line-height: normal;
+	font-size: 18px;
+	color: #333333;
+}
+
+atradius-common-success .success-icon {
+	height: 25px;
+}

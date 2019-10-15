@@ -1,0 +1,9 @@
+<div data-bind="attr: {id: 'dropdown_'+$properties.attrid}" class="dropdown-content">
+    <!-- ko foreach: param-->
+    <a data-bind="text: name, click: action"></a>
+    <!-- /ko-->
+  </div>
+  <oj-button id="dropButton" data-bind="click: myFunction" class="dropbtn">
+      <span id="otherActionsText" data-bind="text: lpQueryOtherActions"></span>
+      <span id="directionOtherActions" role="img" class="oj-fwk-icon-caret02-n oj-fwk-icon"></span>
+  </oj-button>

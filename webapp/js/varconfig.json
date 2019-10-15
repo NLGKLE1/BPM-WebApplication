@@ -1,0 +1,19 @@
+{
+    "connection_type": "OSB",
+    "osb_proxy": "osb.apigateway",
+    "logger_servlet": "ojet.serveletlogger",
+    "base_url": "http://localhost:8000/",
+    "pr_apiary": "http://private-11961b-prapi2.apiary-mock.com",
+    "rd_apiary": "http://private-1cf06-referencedataapi.apiary-mock.com",
+    "rk_apiary": "http://private-f3846-rkapi.apiary-mock.com",
+    "audit_apiary": "http://private-6c6a6-auditingapi.apiary-mock.com",
+    "tm_apiary": "https://private-0e4ef-taskmanagementapi.apiary-mock.com",
+    "sc_apiary": "https://private-317a73-bbtsharedcomponentsapi.apiary-mock.com",
+    "keycloakDiscovery": "authentication.keycloak",
+    "keycloakLoginConfig": {
+        "responseType": "id_token token",
+        "clientId": "jetClient",
+        "clientSecret": "ojet.authenticationtoken"
+    },
+    "froala_key": "froala.key"
+}

@@ -7,6 +7,5 @@ define([
   'resources/composites/common/atradius-common-success/loader',
   'resources/composites/common/atradius-common-info/loader',
   'resources/composites/common/atradius-common-toast/loader',
-  'resources/composites/atr-components/atr-currency/loader',
   'resources/composites/common/atradius-dropdown-button/loader'
   ], function() {});
