@@ -1,0 +1,35 @@
+{
+  "name": "atradius-pr-popup-success",
+  "displayName": "atradius-pr-popup-success",
+  "description": "Describe your component here",
+  "version": "1.0.0",
+  "jetVersion": "5.2.0",
+  "properties": {},
+  "methods": {
+    "openMessage": {
+      "description": "",
+      "params": [
+        {
+          "errormessage": {
+            "type": "String",
+            "value": ""
+          }
+        },
+        {
+          "errortitle": {
+            "type": "String",
+            "value": ""
+          }
+        }
+      ]
+    },
+    "closeMessage": {
+      "description": "",
+      "params": [
+        {}
+      ]
+    }
+  },
+  "events": {},
+  "slots": {}
+}

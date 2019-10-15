@@ -64,14 +64,21 @@ requirejs.config(
 require(['ojs/ojbootstrap', 'knockout', 'appController', 'ojet', 'ojEvents', 'ojUtils', 'text!./varconfig.json', 'ojCombo', 'ojAuth', 'ojFetch', 
 'resources/router/navData', 'resources/core/common/ojKnockout', 'resources/core/utils/ojMapping'],
     function (Bootstrap, ko, app, ojet, evt, utils, vars, ojCombo, ojAuth, ojFetch, ojNavData) { 
-    Bootstrap.whenDocumentReady().then(
+    // add ojet, evt and ojCombo js to global scope
+    const varconfig = JSON.parse(vars);
+    window.ojet = ojet;
+    window.evt = evt;
+    window.ojCombo = ojCombo;
+    window.site_url = varconfig['base_url'];
+    window.logger_url = varconfig['logger_servlet'];
+    
+      Bootstrap.whenDocumentReady().then(
       function () {
 
         self.navListData = ojet.createJSONTreeDataSource(ojNavData.getMenu());;
 
         //initialize application
         ojet.init(app);
-
       });
 
   }

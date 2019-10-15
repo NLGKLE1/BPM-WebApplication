@@ -1,0 +1,32 @@
+{
+  "name": "atradius-common-business-error",
+  "version": "1.0.0",
+  "jetVersion": "^6.1.0",
+  "displayName": "Business Error Popup",
+  "description": "A translatable high-level description for the pack.",
+  "properties": {
+
+  },
+  "methods": {
+    "businessErrorHandling" : {
+      "params": [{
+        "name": "errorlist",
+        "type": "object"
+      }]
+    },
+    "open": {
+      "description": "",
+      "params": [{}]
+    },
+    "close": {
+      "description": "",
+      "params": [{}]
+    }
+  }, 
+  "events": {
+
+  }, 
+  "slots": {
+
+  }
+}

@@ -1,0 +1,14 @@
+<div class="atradius-common-info">
+  <div id="popupInfoMessage" style="display: none">
+    <div class="oj-flex oj-sm-align-items-center container oj-sm-padding-4x-end oj-sm-flex-wrap-nowrap">
+      <div class="flex-item oj-flex-item oj-flex oj-sm-flex-direction-column" data-bind="foreach: infoMessage">
+        <span data-bind="text: $data" class="info"></span>
+      </div>
+      <oj-button data-bind="click: closeMessage">
+        <div class="oj-sm-padding-4x-horizontal">
+          <span data-bind="translation: 'common-popup-info-button-dismiss'"></span>
+        </div>
+      </oj-button>
+    </div>
+  </div>
+</div>

@@ -38,18 +38,15 @@ define(['ojet', 'resources/router/navData', 'resources/router/routerConfig'
       // };
 
       // Router View/ViewModel configuration
-        self.loadModule = function () {
-          ojet.createComputed(function () {
-            var name = self.router.moduleConfig.name();            
-            //prepareRouter(name);
-          });
-        };
+      self.loadModule = function () {
+        ojet.createComputed(function () {
+          var name = self.router.moduleConfig.name();
+          //prepareRouter(name);
+        });
+      };
 
-        // Homepage Greeting
-        self.localeGreeting = ojet.createText('homepage-welcome');
-
-      // Navigation setup
-
+      // Homepage Greeting
+      self.localeGreeting = ojet.createText('homepage-welcome');
 
       // // Called by navigation drawer toggle button and after selection of nav drawer item
       // self.toggleDrawer = function () {
@@ -64,9 +61,6 @@ define(['ojet', 'resources/router/navData', 'resources/router/routerConfig'
         this.linkId = id;
         this.linkTarget = linkTarget;
       }
-      self.footerLinks = ojet.createArray([
-        // new footerLink('About Oracle', 'aboutOracle', 'http://www.oracle.com/us/corporate/index.html#menu-about')
-      ]);
     }
 
     return new ControllerViewModel();

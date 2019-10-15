@@ -1,0 +1,45 @@
+<!-- ko foreach: { data: toasts, afterAdd: animateAdd, beforeRemove: animateRemove } -->
+
+<!-- ko if: ko.unwrap(type) == "success" -->
+<div class="atr-toaster-success" style="display: none">
+  <div class="oj-flex oj-sm-align-items-center toaster-container">
+      <div class="item oj-flex">
+          <img src="css/images/icons/basic_success.svg" alt="success" class="success-icon">
+      </div>
+        <div class="flex-item oj-flex-item oj-flex">
+          <span data-bind="text: message" class="info"></span>
+        </div>
+        <img src="css/images/icons/validation_close.svg" alt="close" data-bind="click: $parent.closeMessage" class="item pointer">
+    </div>
+</div>
+<!-- /ko -->
+
+<!-- ko if: ko.unwrap(type) == "error" -->
+<div class="atr-toaster-error" style="display: none">
+  <div class="oj-flex oj-sm-align-items-center toaster-container">
+    <div class="item oj-flex">
+        <img src="css/images/icons/basic_error.svg" alt="warning" class="error-icon">
+    </div>
+      <div class="flex-item oj-flex-item oj-flex">
+        <span data-bind="text: message" class="info"></span>
+      </div>
+      <img src="css/images/icons/validation_close.svg" alt="close" data-bind="click: $parent.closeMessage" class="item pointer">
+  </div>
+</div>
+<!-- /ko -->
+
+<!-- ko if: ko.unwrap(type) == "warning" -->
+<div class="atr-toaster-warning" style="display: none">
+  <div class="oj-flex oj-sm-align-items-center toaster-container">
+    <div class="item oj-flex">
+        <img src="css/images/icons/basic_warning.svg" alt="warning" class="warning-icon">
+    </div>
+      <div class="flex-item oj-flex-item oj-flex">
+        <span data-bind="text: message" class="info"></span>
+      </div>
+      <img src="css/images/icons/validation_close.svg" alt="close" data-bind="click: $parent.closeMessage" class="item pointer">
+  </div>
+</div>
+<!-- /ko -->
+
+<!-- /ko -->

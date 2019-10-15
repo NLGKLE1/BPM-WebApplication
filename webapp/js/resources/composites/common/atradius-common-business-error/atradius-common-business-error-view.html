@@ -1,0 +1,19 @@
+<div class="common-business-error-main">
+  <div class="header-container" slot="header">
+    <span role="img" class="oj-fwk-icon-cross02 oj-fwk-icon" id="be_errorIcon"></span>
+    <span data-bind="text: messageHeader" class="item atr-form-content" id="be_messageHeader"></span>
+    <oj-button class="dismiss-btn" data-bind="click: dismiss" id="be_dismissBtn">
+      <span data-bind="text: dismissBtn"></span>
+    </oj-button>
+    <oj-button class="disclose-icon" data-bind="click: toggleDisclose" id="be_discloseBtn">
+      <span slot='endIcon' class="oj-fwk-icon oj-fwk-icon-caret02-s" id="discloseBusinessDesc"></span>
+    </oj-button>
+  </div>
+  <div style="display: none" id="businessErrorDesc" class="header-container">
+    <div data-bind="foreach: errorDescription" class="desc-container" id="be_errorDesc">
+      <div class="item description-row">
+        <span data-bind="text: $data" class="atr-form-content"></span>
+      </div>
+    </div>
+  </div>
+</div>

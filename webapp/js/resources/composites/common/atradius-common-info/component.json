@@ -1,0 +1,28 @@
+{
+  "name": "atradius-pr-popup-success",
+  "displayName": "atradius-common-info",
+  "description": "atradius-common-info",
+  "version": "1.0.0",
+  "jetVersion": "5.2.0",
+  "properties": {},
+  "methods": {
+    "openMessage": {
+      "description": "",
+      "params": [
+        {
+          "infomessage": {
+            "type": "object"
+          }
+        }
+      ]
+    },
+    "closeMessage": {
+      "description": "",
+      "params": [
+        {}
+      ]
+    }
+  },
+  "events": {},
+  "slots": {}
+}

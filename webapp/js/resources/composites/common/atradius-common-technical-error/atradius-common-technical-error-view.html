@@ -1,0 +1,14 @@
+<div class="atradius-common-technical-error">
+    <div class="oj-flex atr-component-whitebox outer-container oj-sm-flex-wrap-nowrap">
+        <div class="error-container oj-flex oj-sm-align-items-center">
+            <img src="css/images/icons/red_exclamation.svg" alt="red-exclamation" class="error-icon" id="te_errorIcon">
+        </div>
+        <div class="oj-flex-item oj-flex oj-sm-flex-direction-column item-pad">
+            <span class="item-bot-pad header-text" data-bind="text: errorId" id="te_messageHeader"></span>
+            <span data-bind="text: errorInfo1" class="small-text" id="te_info1"></span>
+            <span data-bind="text: errorInfo2" class="item-bot-pad small-text" id="te_info2"></span>
+            <span data-bind="text: errorInfo3" class="small-text" id="te_info3"></span>
+        </div>
+                <img src="css/images/icons/gray_circle_remove.svg" alt="gray-exclude" class="item-pad clickable" data-bind="click: close" id="te_dismissBtn">
+    </div>
+</div>
