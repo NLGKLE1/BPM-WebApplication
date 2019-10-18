@@ -5,12 +5,12 @@ define(function () {
             const routerConfig = {
                 'login': {
                     label: 'Login screen',
-                    value: 'login'
+                    value: 'login',
+                    isDefault: true
                   },
                   'taskManager': {
                     label: 'Task Manager',
-                    value: 'taskManager',
-                    isDefault: true
+                    value: 'taskManager'
                   },
                   'report': {
                     label: 'Report',

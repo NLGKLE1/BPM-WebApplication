@@ -162,9 +162,11 @@ define(['text!./varconfig.json', 'crypto-js', 'ojs/ojcore', 'knockout', 'jquery'
             },
             createText: function (translationString) {
                 let observable = ko.observable(oj.Translations.getTranslatedString(translationString));
-                $('#homepageLanguagePicker').on('translateEvent', function () {
-                    observable(oj.Translations.getTranslatedString(translationString));
-                });
+                
+                // get translations after we import those
+                // $('#homepageLanguagePicker').on('translateEvent', function () {
+                //     observable(oj.Translations.getTranslatedString(translationString));
+                // });
                 return observable;
             },
             createInput: function (value) {

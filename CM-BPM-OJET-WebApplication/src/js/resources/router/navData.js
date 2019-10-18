@@ -5,6 +5,7 @@ define(function () {
       // MAIN NAVIGATION
       const navDataInternal = [
         {
+          //Needs to be taken out after login module is working
           'attr': {
             name: 'Login screen',
             id: 'login'
@@ -30,8 +31,16 @@ define(function () {
         }];
 
       return navDataInternal;
+    },
+
+    getPLOMenu: function () {
+
     }
 
   }
+
+   
+
+  
 
 });
