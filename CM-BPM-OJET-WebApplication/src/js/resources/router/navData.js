@@ -1,15 +1,13 @@
 define(function () {
   // THIS FILE IS USED FOR NAVIGATION
   return {
-    getMenu: function () {
-
-      // Show elements in Main Navigation
-      const navDataInternal = [
+    getDOMenu: function () {
+      // Show elements in Data Owner Navigation
+      const navDataDataOwner = [
         {
           'attr': {
             name: 'Task Manager',
-            id: 'taskManager',
-            isDefault: true
+            id: 'taskManager'
           }
         },
         {
@@ -25,17 +23,25 @@ define(function () {
           }
         }];
 
-      return navDataInternal;
+      return navDataDataOwner;
     },
 
     getPLOMenu: function () {
-
+      const navDataProductLineOwner = [
+        {
+          'attr': {
+            name: 'Data Owners',
+            id: 'dataownerlist'
+          }
+        }
+      ]
+      return navDataProductLineOwner;
     }
 
   }
 
-   
 
-  
+
+
 
 });

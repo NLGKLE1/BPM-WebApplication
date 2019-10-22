@@ -1,25 +1,29 @@
 define(function () {
-// THIS FILE IS USED FOR ROUTER CONFIGURATION AND NAVIGATION
+  // THIS FILE IS USED FOR ROUTER CONFIGURATION AND NAVIGATION
   return {
     MainRouter: function () {
       const routerConfig = {
-        'login': {
-          label: 'Login screen',
-          value: 'login'
+        'empty': {
+          label: 'Empty',
+          value: 'common/empty',
+          isDefault: true
         },
         'taskManager': {
           label: 'Task Manager',
-          value: 'taskManager',
-          isDefault: true
+          value: 'do/taskManager'
         },
         'report': {
           label: 'Report',
-          value: 'report'
+          value: 'do/report'
         },
         'about': {
           label: 'About',
-          value: 'about'
+          value: 'do/about'
         },
+        'dataownerlist': {
+          label: 'List of Data Owners',
+          value: 'plo/dataOwnerList'
+        }
       }
       return routerConfig;
     }
