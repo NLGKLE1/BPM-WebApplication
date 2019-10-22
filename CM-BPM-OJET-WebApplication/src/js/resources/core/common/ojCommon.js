@@ -1,5 +1,5 @@
-define(['text!./varconfig.json', 'crypto-js', 'ojs/ojcore', 'knockout', 'jquery', 'ojFetch', 'ojTime', 'ojRouterConfig', 'ojNavData', 'ojs/ojmodule-element-utils', 'ojCommonComponents', 'ojCommonLibs', 'ojCoreComponents'],
-    function (vars, CryptoJS, oj, ko, $, ojFetch, ojTime, ojRouterConfig, ojNavData, ojDC, moduleUtils) {
+define(['text!./varconfig.json', 'crypto-js', 'ojs/ojcore', 'knockout', 'jquery', 'ojFetch', 'ojTime', 'ojRouterConfig', 'ojs/ojmodule-element-utils', 'ojCommonComponents', 'ojCommonLibs', 'ojCoreComponents'],
+    function (vars, CryptoJS, oj, ko, $, ojFetch, ojTime, ojRouterConfig, ojDC, moduleUtils) {
         const self = this;
 
         return {

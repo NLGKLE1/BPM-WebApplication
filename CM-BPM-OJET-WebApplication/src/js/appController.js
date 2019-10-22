@@ -1,6 +1,6 @@
-define(['ojet', 'resources/router/navData', 'resources/router/routerConfig'
+define(['ojet','resources/router/routerConfig'
 ],
-  function (ojet, ojNavData, routerConfig) {
+  function (ojet, routerConfig) {
     function ControllerViewModel() {
       var self = this;
 
@@ -54,13 +54,6 @@ define(['ojet', 'resources/router/navData', 'resources/router/routerConfig'
       // }
       // // Add a close listener so we can move focus back to the toggle button when the drawer closes
       // document.getElementById('navDrawer').addEventListener("ojclose", document.getElementById('drawerToggleButton').focus());
-
-      // Footer
-      function footerLink(name, id, linkTarget) {
-        this.name = name;
-        this.linkId = id;
-        this.linkTarget = linkTarget;
-      }
     }
 
     return new ControllerViewModel();

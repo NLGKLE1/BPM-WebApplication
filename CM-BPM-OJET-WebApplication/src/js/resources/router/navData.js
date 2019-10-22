@@ -1,20 +1,15 @@
 define(function () {
+  // THIS FILE IS USED FOR NAVIGATION
   return {
     getMenu: function () {
 
-      // MAIN NAVIGATION
+      // Show elements in Main Navigation
       const navDataInternal = [
-        {
-          //Needs to be taken out after login module is working
-          'attr': {
-            name: 'Login screen',
-            id: 'login'
-          }
-        },
         {
           'attr': {
             name: 'Task Manager',
-            id: 'taskManager'
+            id: 'taskManager',
+            isDefault: true
           }
         },
         {

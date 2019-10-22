@@ -32,7 +32,7 @@ requirejs.config(
       'ojCoreComponents': 'libs/core/bundles/ojCoreComponents',
       'ojEvents': 'libs/core/common/ojEvents',
       'ojLogger': 'libs/core/logger/ojLogger',
-      'ojNavData': 'libs/core/router/ojNavData',
+      //'ojNavData': 'libs/core/router/ojNavData',
       'ojRouterConfig': 'libs/core/router/ojRouterConfig',
       'ojUtils': 'libs/core/utils/ojUtils',
       'es6': 'libs/core/modules/requirejs-babel/es6',
