@@ -1,6 +1,6 @@
-define(['ojet','resources/router/routerConfig'
+define(['ojet','resources/router/navData', 'resources/router/routerConfig'
 ],
-  function (ojet, routerConfig) {
+  function (ojet, oJNavData, routerConfig) {
     function ControllerViewModel() {
       var self = this;
 
