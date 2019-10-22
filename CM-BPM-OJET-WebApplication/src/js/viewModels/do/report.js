@@ -6,8 +6,8 @@
 /*
  * Your about ViewModel code goes here
  */
-define(['knockout', 'jquery', 'ojs/ojknockout', 'ojs/ojtrain'],
-  function (ko, $) {
+define(['knockout', 'jquery', 'ojet', 'ojs/ojknockout', 'ojs/ojtrain'],
+  function (ko, $, ojet) {
 
     function ReportViewModel() {
       var self = this;
@@ -16,7 +16,7 @@ define(['knockout', 'jquery', 'ojs/ojknockout', 'ojs/ojtrain'],
       function TrainData() {
         // self.selectedStep = ko.observable('stp3');
         // hardcode arrays for testing purposes
-        self.calculatorArray = ko.observable([{ label: 'Step One', visited: true, id: 'stp1' },
+        self.calculatorArray = ojet.createArray([{ label: 'Step One', visited: true, id: 'stp1' },
         { label: 'Step Two',  visited: true, id: 'stp2' },
         { label: 'Step Three',  visited: true, id: 'stp3' },
         { label: 'Step Four',  visited: true, id: 'stp4' },
@@ -25,7 +25,7 @@ define(['knockout', 'jquery', 'ojs/ojknockout', 'ojs/ojtrain'],
         { label: 'step seven', id: 'stp7' },
         { label: 'step eight', id: 'stp8' }]);
 
-        self.bondsArray = ko.observable([{ label: 'Step One',  visited: true, id: 'stp1' },
+        self.bondsArray = ojet.createArray([{ label: 'Step One',  visited: true, id: 'stp1' },
         { label: 'Step Two',  visited: true, id: 'stp2' },
         { label: 'Step Three',  visited: true, id: 'stp3' },
         { label: 'Step Four', id: 'stp4' },

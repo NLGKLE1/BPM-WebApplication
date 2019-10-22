@@ -16,10 +16,6 @@ define(function () {
           label: 'Report',
           value: 'do/report'
         },
-        'about': {
-          label: 'About',
-          value: 'do/about'
-        },
         'dataownerlist': {
           label: 'List of Data Owners',
           value: 'plo/dataOwnerList'

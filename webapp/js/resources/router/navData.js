@@ -15,12 +15,6 @@ define(function () {
             name: 'Report',
             id: 'report'
           }
-        },
-        {
-          'attr': {
-            name: 'About',
-            id: 'about'
-          }
         }];
 
       return navDataDataOwner;

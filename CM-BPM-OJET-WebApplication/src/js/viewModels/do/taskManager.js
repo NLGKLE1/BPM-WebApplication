@@ -1,11 +1,11 @@
-define(['knockout', 'jquery', "ojs/ojtable", "ojs/ojbutton"],
-  function (ko, $) {
+define(['knockout', 'jquery', 'ojet', "ojs/ojtable", "ojs/ojbutton"],
+  function (ko, $, ojet) {
 
     function TaskManagerViewModel() {
       var self = this;
 
       // Mock Data
-      self.mockData = ko.observableArray([
+      self.mockData = ojet.createArray([
         { taskId: "1", taskName: "Calculater report", dateTime: "2-10-2019 11:36", errors: "0", warnings: "1", comments: "Check with product owner" }
       ])
 
@@ -14,14 +14,14 @@ define(['knockout', 'jquery', "ojs/ojtable", "ojs/ojbutton"],
       )
 
       // buttons
-      self.acceptButton = ko.observable(true);
+      self.acceptButton = ojet.createInput(true);
       self.acceptButton(oj.Translations.getTranslatedString('Accept'));
 
-      self.correctButton = ko.observable();
+      self.correctButton = ojet.createArray();
       self.correctButton(oj.Translations.getTranslatedString('correct-buttonText'))
 
       // enables/disables accept button, still working on changing the class
-      self.isDisabled = ko.observable();
+      self.isDisabled = ojet.createInput();
 
       self.needsToBeDisabled = function () {
         if (self.mockData()[0].errors == 0) {
