@@ -1,0 +1,30 @@
+.data-owner-container {
+    display: flex;
+    justify-items: center;
+}
+
+.data-owner-main-grid {
+    display: grid;
+    grid-template-columns: 230px 230px 230px;
+    grid-template-areas: "row-1  row-2 row-3";
+    grid-gap: 2em;
+}
+
+.data-owner-1 {
+    grid-area: row-1;
+}
+
+.data-owner-2 {
+    grid-area: row-2;
+}
+
+.data-owner-3 {
+    grid-area: row-3;
+}
+
+.data-owner-card {
+    border: solid 1px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

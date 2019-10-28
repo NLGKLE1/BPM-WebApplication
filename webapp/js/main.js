@@ -75,7 +75,7 @@ require(['ojs/ojbootstrap', 'knockout', 'appController', 'ojet', 'ojEvents', 'oj
       Bootstrap.whenDocumentReady().then(
       function () {
 
-        self.navListData = ojet.createJSONTreeDataSource(ojNavData.getPLOMenu());;
+        self.navListData = ojet.createJSONTreeDataSource(ojNavData.getDOMenu());;
 
         //initialize application
         ojet.init(app);

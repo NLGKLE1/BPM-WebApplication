@@ -1,0 +1,16 @@
+.report-main-grid {
+    display: grid;
+    grid-template-columns: max-content;
+    grid-template-rows: 140px 140px;
+    grid-template-areas: 
+        "calculator-container"
+        "bonds-container";
+}
+
+.calculator-train {
+grid-area: calculator-container;
+}
+
+.bonds-train {
+grid-area: bonds-container;
+}

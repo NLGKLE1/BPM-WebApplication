@@ -2,10 +2,22 @@
  Copyright (c) 2014, 2019, Oracle and/or its affiliates.
  The Universal Permissive License (UPL), Version 1.0
  -->
- <div class="oj-hybrid-padding">
-    <h1>About Content Area</h1>
-    <div>
-        To change the content of this section, you will make edits to the DataOwnerList.html file located in the /js/views folder.
+<link rel="stylesheet" href="css/plo/dataOwnerList.css">
+
+<div class="data-owner-container oj-hybrid-padding">
+    <div class="data-owner-main-grid">
+      <div class="data-owner-card">
+        <div class="data-owner-1">
+          <oj-bind-text value="[[dataOwner]]"></oj-bind-text>
+        </div>
+      </div>
+
+      <div class="data-owner-card">
+        <div class="data-owner-2">Data Owner 2</div>
+      </div>
+
+      <div class="data-owner-card">
+        <div class="data-owner-3">Data Owner 3</div>
+      </div>
     </div>
-  </div>
-  
+</div>
