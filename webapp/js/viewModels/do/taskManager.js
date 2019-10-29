@@ -6,7 +6,7 @@ define(['knockout', 'jquery', 'ojet', "ojs/ojtable", "ojs/ojbutton"],
 
       // Mock Data
       self.mockData = ojet.createArray([
-        { taskId: "1", taskName: "Calculater report", dateTime: "2-10-2019 11:36", errors: "0", warnings: "1", comments: "Check with product owner" }
+        { taskId: "1", taskName: "Calculater report", dateTime: "2-10-2019 11:36", errors: "1", warnings: "1", comments: "Check with product owner" }
       ])
 
       self.taskData = new oj.ArrayDataProvider(

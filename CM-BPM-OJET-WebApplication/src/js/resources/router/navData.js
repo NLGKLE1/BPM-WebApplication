@@ -27,6 +27,12 @@ define(function () {
             name: 'Data Owners',
             id: 'dataownerlist'
           }
+        },
+        {
+          'attr': {
+            name: 'Report',
+            id: 'report'
+          }
         }
       ]
       return navDataProductLineOwner;
