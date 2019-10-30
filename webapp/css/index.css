@@ -167,7 +167,7 @@ html {
   }
 
     .sidebar-menu {
-      width:200px; /* Tem de ser igual ao tamanho da coluna*/
+      width:200px; /* Must be equal to column size*/
     }       
       .atradiusGrid {
         display: -ms-grid;
