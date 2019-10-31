@@ -38,22 +38,22 @@ Build & Serve the application
 npm run atradius
 OR
 npm run atrbuild
-npm run atrserve
+python -m http.server xxxx
+npm run atrserve (this one is really slow)
 ```
 
 To run the CORS PROXY
 ```
-npm run cors
+npm run cors (haven't tested it yet)
 ```
 
 ## Work Folders
 ```
 THEME: themes\Atradius\web\Atradius.scss
 SCSS: scss\(...)
-DC: js\resources\dataControls\{dataControl}.js
 TEXTS: js\resources\nls\l10.js (TEXTS FILE)
-JS: js\viewModels\rd\{model}.js
-HTML: js\views\rd\{view}.html
+JS: js\viewModels\do\{model}.js
+HTML: js\views\do\{view}.html
 ```
 
 ## Unit Testing
