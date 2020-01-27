@@ -1,3 +1,4 @@
 define({
-    'homepage-welcome': 'Welcome NL, '
+  // Netherlands / Dutch
+    'homepage-welcome': 'Welkom NETHERLANDS, '
   });

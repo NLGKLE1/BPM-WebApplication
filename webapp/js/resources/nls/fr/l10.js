@@ -1,3 +1,4 @@
 define({
-    'homepage-welcome': 'Welcome FR, '
+  //French
+    'homepage-welcome': 'Bienvenue français, '
   });

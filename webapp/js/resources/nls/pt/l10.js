@@ -1,4 +1,5 @@
 define({
+  // Portugese
     //Homepage
-    'homepage-welcome': 'Bem vindo, ',
+    'homepage-welcome': 'Bem vindo PORTUGUES, ',
   });

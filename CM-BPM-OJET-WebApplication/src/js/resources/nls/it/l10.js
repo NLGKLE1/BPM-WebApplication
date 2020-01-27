@@ -1,7 +1,7 @@
 define({
- 
+    //Italian
     //Homepage
-    'homepage-welcome': 'Welcom It,',
+    'homepage-welcome': 'Benvenuto ITALIANO,',
 
   
 });

@@ -1,4 +1,5 @@
 define({
+  //ENGLISH
   'root': {
     //Homepage
     'homepage-welcome': 'Welcome, ',
