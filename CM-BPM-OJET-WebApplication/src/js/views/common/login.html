@@ -1,0 +1,42 @@
+<ojet-loading data-bind="visible: !loaded()"></ojet-loading>
+<ojet-errorloading data-bind="visible: errorloading()"></ojet-errorloading>
+<oj-messages messages="[[messages]]" position="{}" display="notification"></oj-messages>
+
+<div id="main" class="login-main-grid">
+
+    <div class="help-item-title login-title">
+        <span class="atr-title" data-bind="text: title"></span>
+    </div>
+
+    <div class="help-item-title login-userLabel">
+        <span class="atr-form-labelBold" data-bind="text: userLabel"></span>  
+    </div>
+
+    <div class="login-usernameBox">
+        <oj-input-text value="{{loginValue}}"></oj-input-text>
+    </div>
+
+    <div class="help-item-title login-pwLabel">
+        <span class="atr-form-labelBold" data-bind="text: pwLabel"></span>  
+    </div>
+
+    <div id="teste" class="login-passwordBox">
+        <oj-input-password id="password" value="{{pwValue}}"></oj-input-password>
+    </div>
+
+    <oj-button class="login-loginButton atr-button-highlight"><span data-bind="text: loginButtonText"></span></oj-button>
+
+</div>
+
+    <rich-text-editor id="richText" content="{{content}}">
+        <span slot="fontsArea">
+            <select class="ql-font">
+            <option selected>Sans Serif</option>
+            <option value="roboto">Roboto</option>
+            <option value="arial">Arial</option>
+            <!-- and other Fonts -->
+            </select>
+        </span>
+    </rich-text-editor>
+
+<oj-button id='button1' on-oj-action='[[buttonClick]]'>Button Click</oj-button>

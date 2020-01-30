@@ -19,6 +19,10 @@ define(function () {
         'dataownerlist': {
           label: 'List of Data Owners',
           value: 'plo/dataOwnerList'
+        },
+        'login': {
+          label: 'Login Page',
+          value: 'common/login'
         }
       }
       return routerConfig;
