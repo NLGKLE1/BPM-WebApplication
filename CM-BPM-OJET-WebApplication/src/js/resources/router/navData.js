@@ -15,6 +15,12 @@ define(function () {
             name: 'Report',
             id: 'report'
           }
+        },
+        {
+          'attr': {
+           name: 'Login',
+            id: 'login'
+          }
         }];
 
       return navDataDataOwner;
@@ -39,9 +45,4 @@ define(function () {
     }
 
   }
-
-
-
-
-
 });

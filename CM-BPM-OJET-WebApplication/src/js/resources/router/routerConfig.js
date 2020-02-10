@@ -3,10 +3,15 @@ define(function () {
   return {
     MainRouter: function () {
       const routerConfig = {
+        'login': {
+          label: 'Login Page',
+          value: 'common/login',
+          isDefault: true
+        },
         'empty': {
           label: 'Empty',
-          value: 'common/empty',
-          isDefault: true
+          value: 'common/empty'
+
         },
         'taskManager': {
           label: 'Task Manager',
@@ -19,10 +24,6 @@ define(function () {
         'dataownerlist': {
           label: 'List of Data Owners',
           value: 'plo/dataOwnerList'
-        },
-        'login': {
-          label: 'Login Page',
-          value: 'common/login'
         }
       }
       return routerConfig;

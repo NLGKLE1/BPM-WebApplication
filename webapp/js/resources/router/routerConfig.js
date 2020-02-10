@@ -3,10 +3,15 @@ define(function () {
   return {
     MainRouter: function () {
       const routerConfig = {
+        'login': {
+          label: 'Login Page',
+          value: 'common/login',
+          isDefault: true
+        },
         'empty': {
           label: 'Empty',
-          value: 'common/empty',
-          isDefault: true
+          value: 'common/empty'
+
         },
         'taskManager': {
           label: 'Task Manager',
